@@ -1,0 +1,4395 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_564ffd4332112f7140462e6ef89c1017 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+    <script src="https://cdn.jsdelivr.net/gh/python-visualization/folium@main/folium/templates/leaflet_heat.min.js"></script>
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_564ffd4332112f7140462e6ef89c1017" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_564ffd4332112f7140462e6ef89c1017 = L.map(
+                "map_564ffd4332112f7140462e6ef89c1017",
+                {
+                    center: [1.3733, 32.2903],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 7,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_68a41106f173b13f53c9804258ac5fa5 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_68a41106f173b13f53c9804258ac5fa5.addTo(map_564ffd4332112f7140462e6ef89c1017);
+        
+    
+            var marker_e13efc73a7882bbaa44c7ae64cb3ee9b = L.marker(
+                [0.3443616, 32.8771621],
+                {
+}
+            ).addTo(map_564ffd4332112f7140462e6ef89c1017);
+        
+    
+            var icon_8d707d70202eb55fdf6196be18438260 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_09ba37e95692294866089000631b495b = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f9d5d36ff848392a7d7d69795aa1249b = $(`<div id="html_f9d5d36ff848392a7d7d69795aa1249b" style="width: 100.0%; height: 100.0%;">A109, Lugazi, Uganda</div>`)[0];
+                popup_09ba37e95692294866089000631b495b.setContent(html_f9d5d36ff848392a7d7d69795aa1249b);
+            
+        
+
+        marker_e13efc73a7882bbaa44c7ae64cb3ee9b.bindPopup(popup_09ba37e95692294866089000631b495b)
+        ;
+
+        
+    
+    
+                marker_e13efc73a7882bbaa44c7ae64cb3ee9b.setIcon(icon_8d707d70202eb55fdf6196be18438260);
+            
+    
+            var marker_dab6b17cce7a3263a23a876279311c54 = L.marker(
+                [0.2998454, 32.5337397],
+                {
+}
+            ).addTo(map_564ffd4332112f7140462e6ef89c1017);
+        
+    
+            var icon_f1b67fcd7281e06c30133754f4aaa0c6 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_b896380ec88462469b00246a6bae2bac = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_5d00a85c4233222af6e377b1a68a17bd = $(`<div id="html_5d00a85c4233222af6e377b1a68a17bd" style="width: 100.0%; height: 100.0%;">162a Wakaliga Road, Kampala, Uganda</div>`)[0];
+                popup_b896380ec88462469b00246a6bae2bac.setContent(html_5d00a85c4233222af6e377b1a68a17bd);
+            
+        
+
+        marker_dab6b17cce7a3263a23a876279311c54.bindPopup(popup_b896380ec88462469b00246a6bae2bac)
+        ;
+
+        
+    
+    
+                marker_dab6b17cce7a3263a23a876279311c54.setIcon(icon_f1b67fcd7281e06c30133754f4aaa0c6);
+            
+    
+            var marker_c1b4801729d4cf24f37f66534badf01f = L.marker(
+                [0.31628, 32.58219],
+                {
+}
+            ).addTo(map_564ffd4332112f7140462e6ef89c1017);
+        
+    
+            var icon_968d3d018a5f355bc90c8c10984ae285 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_9d17c72e1144533a71a612ddfd4cc80d = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_e3bd715fb1fc9678590c75eabd3984e6 = $(`<div id="html_e3bd715fb1fc9678590c75eabd3984e6" style="width: 100.0%; height: 100.0%;">8H9R+CRQ, Kampala, Uganda</div>`)[0];
+                popup_9d17c72e1144533a71a612ddfd4cc80d.setContent(html_e3bd715fb1fc9678590c75eabd3984e6);
+            
+        
+
+        marker_c1b4801729d4cf24f37f66534badf01f.bindPopup(popup_9d17c72e1144533a71a612ddfd4cc80d)
+        ;
+
+        
+    
+    
+                marker_c1b4801729d4cf24f37f66534badf01f.setIcon(icon_968d3d018a5f355bc90c8c10984ae285);
+            
+    
+            var marker_85a386d0c5dc62c7aede43b506f33f32 = L.marker(
+                [-0.60467, 30.64851],
+                {
+}
+            ).addTo(map_564ffd4332112f7140462e6ef89c1017);
+        
+    
+            var icon_7967e4e6a7d0d397e7e4e17652261c1e = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_383ef988bff57b53c64ed94981026cf8 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_c49a0b374662cf20c130b5ec0130afc5 = $(`<div id="html_c49a0b374662cf20c130b5ec0130afc5" style="width: 100.0%; height: 100.0%;">9MR6+VH5, Kabale - Mbarara Rd, Mbarara, Uganda</div>`)[0];
+                popup_383ef988bff57b53c64ed94981026cf8.setContent(html_c49a0b374662cf20c130b5ec0130afc5);
+            
+        
+
+        marker_85a386d0c5dc62c7aede43b506f33f32.bindPopup(popup_383ef988bff57b53c64ed94981026cf8)
+        ;
+
+        
+    
+    
+                marker_85a386d0c5dc62c7aede43b506f33f32.setIcon(icon_7967e4e6a7d0d397e7e4e17652261c1e);
+            
+    
+            var marker_292616805e3a809a066831e912b35948 = L.marker(
+                [2.77457, 32.29899],
+                {
+}
+            ).addTo(map_564ffd4332112f7140462e6ef89c1017);
+        
+    
+            var icon_9378c9fc0dba21b047407c200e62c8ee = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_d6e85a623996558d5749705471d67218 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_4edf635e63a6c1c49f7c9631aea0cea1 = $(`<div id="html_4edf635e63a6c1c49f7c9631aea0cea1" style="width: 100.0%; height: 100.0%;">Gulu Avenue, Q7FW+PX7, Gulu, Uganda</div>`)[0];
+                popup_d6e85a623996558d5749705471d67218.setContent(html_4edf635e63a6c1c49f7c9631aea0cea1);
+            
+        
+
+        marker_292616805e3a809a066831e912b35948.bindPopup(popup_d6e85a623996558d5749705471d67218)
+        ;
+
+        
+    
+    
+                marker_292616805e3a809a066831e912b35948.setIcon(icon_9378c9fc0dba21b047407c200e62c8ee);
+            
+    
+            var marker_ba924f5b12f8a616796b40dedda6628f = L.marker(
+                [0.31628, 32.58219],
+                {
+}
+            ).addTo(map_564ffd4332112f7140462e6ef89c1017);
+        
+    
+            var icon_7251f6bdab65b9d0de65b64acfcac97d = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_e742f276e9b45c51891eefd84cf476ad = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_cf13f9aef7adc51ce29f461bed514131 = $(`<div id="html_cf13f9aef7adc51ce29f461bed514131" style="width: 100.0%; height: 100.0%;">9G5Q+GP6, Kampala, Uganda</div>`)[0];
+                popup_e742f276e9b45c51891eefd84cf476ad.setContent(html_cf13f9aef7adc51ce29f461bed514131);
+            
+        
+
+        marker_ba924f5b12f8a616796b40dedda6628f.bindPopup(popup_e742f276e9b45c51891eefd84cf476ad)
+        ;
+
+        
+    
+    
+                marker_ba924f5b12f8a616796b40dedda6628f.setIcon(icon_7251f6bdab65b9d0de65b64acfcac97d);
+            
+    
+            var marker_c9b88ce1bb74b9f88904ff4acf8d33d8 = L.marker(
+                [0.31628, 32.58219],
+                {
+}
+            ).addTo(map_564ffd4332112f7140462e6ef89c1017);
+        
+    
+            var icon_9b6d11d7b3d706c83bafce541b0216de = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_63e0b6f3bb73a4f8ae1680017c565654 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_906cc7cfcd0e76c638cd53ac9405c265 = $(`<div id="html_906cc7cfcd0e76c638cd53ac9405c265" style="width: 100.0%; height: 100.0%;">9M25+X6H, Kampala, Uganda</div>`)[0];
+                popup_63e0b6f3bb73a4f8ae1680017c565654.setContent(html_906cc7cfcd0e76c638cd53ac9405c265);
+            
+        
+
+        marker_c9b88ce1bb74b9f88904ff4acf8d33d8.bindPopup(popup_63e0b6f3bb73a4f8ae1680017c565654)
+        ;
+
+        
+    
+    
+                marker_c9b88ce1bb74b9f88904ff4acf8d33d8.setIcon(icon_9b6d11d7b3d706c83bafce541b0216de);
+            
+    
+            var marker_bab973e69639655f0e8d6179e35c9f5b = L.marker(
+                [0.55849, 31.39489],
+                {
+}
+            ).addTo(map_564ffd4332112f7140462e6ef89c1017);
+        
+    
+            var icon_62a1e8c91f5138044e327fa7e86994f4 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_a7053bc33ade977b15cb00f0a956c8db = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_6dce8531c141d86c67e99a8de1ed93ea = $(`<div id="html_6dce8531c141d86c67e99a8de1ed93ea" style="width: 100.0%; height: 100.0%;">Mubende highway opp petro Uganda, Mubende, Uganda</div>`)[0];
+                popup_a7053bc33ade977b15cb00f0a956c8db.setContent(html_6dce8531c141d86c67e99a8de1ed93ea);
+            
+        
+
+        marker_bab973e69639655f0e8d6179e35c9f5b.bindPopup(popup_a7053bc33ade977b15cb00f0a956c8db)
+        ;
+
+        
+    
+    
+                marker_bab973e69639655f0e8d6179e35c9f5b.setIcon(icon_62a1e8c91f5138044e327fa7e86994f4);
+            
+    
+            var marker_9323b5d4dcb8365895b5561a177cdb8a = L.marker(
+                [2.75757, 32.226651],
+                {
+}
+            ).addTo(map_564ffd4332112f7140462e6ef89c1017);
+        
+    
+            var icon_9170f6324f656d350c6c7a0d2354dba4 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_db1404c507dc8e2688996355ec6aa848 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_218ef982efffa6456a9c5740bb3505dd = $(`<div id="html_218ef982efffa6456a9c5740bb3505dd" style="width: 100.0%; height: 100.0%;">Alokolum Rd, Gulu, Uganda</div>`)[0];
+                popup_db1404c507dc8e2688996355ec6aa848.setContent(html_218ef982efffa6456a9c5740bb3505dd);
+            
+        
+
+        marker_9323b5d4dcb8365895b5561a177cdb8a.bindPopup(popup_db1404c507dc8e2688996355ec6aa848)
+        ;
+
+        
+    
+    
+                marker_9323b5d4dcb8365895b5561a177cdb8a.setIcon(icon_9170f6324f656d350c6c7a0d2354dba4);
+            
+    
+            var marker_26934c6026d5bd5ee2104e9f3c428d7d = L.marker(
+                [0.31628, 32.58219],
+                {
+}
+            ).addTo(map_564ffd4332112f7140462e6ef89c1017);
+        
+    
+            var icon_f51a6ad7e184f61fe0ee09ebcf5698e5 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_a33c7f8d4cd03cc35be344306f3a7052 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_d44bb94386089e81bf72302ed501e73e = $(`<div id="html_d44bb94386089e81bf72302ed501e73e" style="width: 100.0%; height: 100.0%;">9G5Q+GP6, Kampala, Uganda</div>`)[0];
+                popup_a33c7f8d4cd03cc35be344306f3a7052.setContent(html_d44bb94386089e81bf72302ed501e73e);
+            
+        
+
+        marker_26934c6026d5bd5ee2104e9f3c428d7d.bindPopup(popup_a33c7f8d4cd03cc35be344306f3a7052)
+        ;
+
+        
+    
+    
+                marker_26934c6026d5bd5ee2104e9f3c428d7d.setIcon(icon_f51a6ad7e184f61fe0ee09ebcf5698e5);
+            
+    
+            var marker_f19352acbab96dfdc7f4efd2b3568398 = L.marker(
+                [0.2855096, 32.5814058],
+                {
+}
+            ).addTo(map_564ffd4332112f7140462e6ef89c1017);
+        
+    
+            var icon_3bfa4097a890dbffe24408eb0665845e = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_4ccf8b96d07e9acdfe2712c10937f0ad = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f1b705fa6797ff101f380ef4c76f11ed = $(`<div id="html_f1b705fa6797ff101f380ef4c76f11ed" style="width: 100.0%; height: 100.0%;">Mobutu Road, Kampala, Uganda</div>`)[0];
+                popup_4ccf8b96d07e9acdfe2712c10937f0ad.setContent(html_f1b705fa6797ff101f380ef4c76f11ed);
+            
+        
+
+        marker_f19352acbab96dfdc7f4efd2b3568398.bindPopup(popup_4ccf8b96d07e9acdfe2712c10937f0ad)
+        ;
+
+        
+    
+    
+                marker_f19352acbab96dfdc7f4efd2b3568398.setIcon(icon_3bfa4097a890dbffe24408eb0665845e);
+            
+    
+            var marker_7607eb5ba63afe2203ffeae55d407a4e = L.marker(
+                [0.31628, 32.58219],
+                {
+}
+            ).addTo(map_564ffd4332112f7140462e6ef89c1017);
+        
+    
+            var icon_0f09a8c7175ecd0af949ddcdc7f0402d = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_c844d67e14914f769b47211c1117bacd = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_068c0b44e3c454b458ca4c1af41c3718 = $(`<div id="html_068c0b44e3c454b458ca4c1af41c3718" style="width: 100.0%; height: 100.0%;">9H9H+47V, Bahai Road, Kampala, Uganda</div>`)[0];
+                popup_c844d67e14914f769b47211c1117bacd.setContent(html_068c0b44e3c454b458ca4c1af41c3718);
+            
+        
+
+        marker_7607eb5ba63afe2203ffeae55d407a4e.bindPopup(popup_c844d67e14914f769b47211c1117bacd)
+        ;
+
+        
+    
+    
+                marker_7607eb5ba63afe2203ffeae55d407a4e.setIcon(icon_0f09a8c7175ecd0af949ddcdc7f0402d);
+            
+    
+            var marker_732d6dbeef41d738ce9e6835dd858eaf = L.marker(
+                [0.31628, 32.58219],
+                {
+}
+            ).addTo(map_564ffd4332112f7140462e6ef89c1017);
+        
+    
+            var icon_f43b5cc75e2512469b9f7fa0a693a636 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_7e24e4b80afc01322ce93007690dfe03 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_99dc1e74692eb331dc05925a0453da49 = $(`<div id="html_99dc1e74692eb331dc05925a0453da49" style="width: 100.0%; height: 100.0%;">Plot 59 Mobutu Road, Kampala, Uganda</div>`)[0];
+                popup_7e24e4b80afc01322ce93007690dfe03.setContent(html_99dc1e74692eb331dc05925a0453da49);
+            
+        
+
+        marker_732d6dbeef41d738ce9e6835dd858eaf.bindPopup(popup_7e24e4b80afc01322ce93007690dfe03)
+        ;
+
+        
+    
+    
+                marker_732d6dbeef41d738ce9e6835dd858eaf.setIcon(icon_f43b5cc75e2512469b9f7fa0a693a636);
+            
+    
+            var marker_07580d11098c5eaca5004a9c468d353a = L.marker(
+                [0.3266271, 32.6052422],
+                {
+}
+            ).addTo(map_564ffd4332112f7140462e6ef89c1017);
+        
+    
+            var icon_e4d83af93480684f76497caf9a90d93f = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_619618873253142c102648b301d6bdb0 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_279f334002227b4fc4663acdddf829a7 = $(`<div id="html_279f334002227b4fc4663acdddf829a7" style="width: 100.0%; height: 100.0%;">6e Lugogo By-Pass, Kampala, Uganda</div>`)[0];
+                popup_619618873253142c102648b301d6bdb0.setContent(html_279f334002227b4fc4663acdddf829a7);
+            
+        
+
+        marker_07580d11098c5eaca5004a9c468d353a.bindPopup(popup_619618873253142c102648b301d6bdb0)
+        ;
+
+        
+    
+    
+                marker_07580d11098c5eaca5004a9c468d353a.setIcon(icon_e4d83af93480684f76497caf9a90d93f);
+            
+    
+            var marker_48af42049debcff9fb74efef17f020c2 = L.marker(
+                [0.12111, 32.53],
+                {
+}
+            ).addTo(map_564ffd4332112f7140462e6ef89c1017);
+        
+    
+            var icon_74bd84f77c809872b1d6e7d710a529f9 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_ed8527614249c04d1c5e77caaf6b5cbe = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_72df1ff47cb326785c907e9d0666ee26 = $(`<div id="html_72df1ff47cb326785c907e9d0666ee26" style="width: 100.0%; height: 100.0%;">4GQQ+4GM, Kisubi, Uganda</div>`)[0];
+                popup_ed8527614249c04d1c5e77caaf6b5cbe.setContent(html_72df1ff47cb326785c907e9d0666ee26);
+            
+        
+
+        marker_48af42049debcff9fb74efef17f020c2.bindPopup(popup_ed8527614249c04d1c5e77caaf6b5cbe)
+        ;
+
+        
+    
+    
+                marker_48af42049debcff9fb74efef17f020c2.setIcon(icon_74bd84f77c809872b1d6e7d710a529f9);
+            
+    
+            var marker_29ed34d13e1f26a3bfab45a08e66fa6f = L.marker(
+                [0.31628, 32.58219],
+                {
+}
+            ).addTo(map_564ffd4332112f7140462e6ef89c1017);
+        
+    
+            var icon_ff3c2fa0fff461fd335f64ee082fb027 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_7b5c1c9fb31edec9425032e54ed9decf = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_18c2a1bb8cbc4120d1af53621dbea18f = $(`<div id="html_18c2a1bb8cbc4120d1af53621dbea18f" style="width: 100.0%; height: 100.0%;">9H9H+47V, Bahai Road, Kampala, Uganda</div>`)[0];
+                popup_7b5c1c9fb31edec9425032e54ed9decf.setContent(html_18c2a1bb8cbc4120d1af53621dbea18f);
+            
+        
+
+        marker_29ed34d13e1f26a3bfab45a08e66fa6f.bindPopup(popup_7b5c1c9fb31edec9425032e54ed9decf)
+        ;
+
+        
+    
+    
+                marker_29ed34d13e1f26a3bfab45a08e66fa6f.setIcon(icon_ff3c2fa0fff461fd335f64ee082fb027);
+            
+    
+            var marker_80a05335835f6dc54c2234b32698a733 = L.marker(
+                [0.3951672, 32.5948028],
+                {
+}
+            ).addTo(map_564ffd4332112f7140462e6ef89c1017);
+        
+    
+            var icon_a97187a3b49ed4532545ac5db98fd592 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_56a7912bd306b4bb4b8070dcdc930a69 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f6c66fd1258400c3ec9f12560d6884ef = $(`<div id="html_f6c66fd1258400c3ec9f12560d6884ef" style="width: 100.0%; height: 100.0%;">3A Kyanja 4725, Kampala, Uganda</div>`)[0];
+                popup_56a7912bd306b4bb4b8070dcdc930a69.setContent(html_f6c66fd1258400c3ec9f12560d6884ef);
+            
+        
+
+        marker_80a05335835f6dc54c2234b32698a733.bindPopup(popup_56a7912bd306b4bb4b8070dcdc930a69)
+        ;
+
+        
+    
+    
+                marker_80a05335835f6dc54c2234b32698a733.setIcon(icon_a97187a3b49ed4532545ac5db98fd592);
+            
+    
+            var marker_58d782184a838d1d48233cd05a500cb5 = L.marker(
+                [0.3432172, 32.5956142],
+                {
+}
+            ).addTo(map_564ffd4332112f7140462e6ef89c1017);
+        
+    
+            var icon_6d372a9c365fa71e0913c10b4eb5032d = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_3e7837ebaba7da73f6123f8c50098997 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_43da28f7ebab8cce157132c4df3c3e00 = $(`<div id="html_43da28f7ebab8cce157132c4df3c3e00" style="width: 100.0%; height: 100.0%;">Plot 88 Kira Rd, Kampala, Uganda</div>`)[0];
+                popup_3e7837ebaba7da73f6123f8c50098997.setContent(html_43da28f7ebab8cce157132c4df3c3e00);
+            
+        
+
+        marker_58d782184a838d1d48233cd05a500cb5.bindPopup(popup_3e7837ebaba7da73f6123f8c50098997)
+        ;
+
+        
+    
+    
+                marker_58d782184a838d1d48233cd05a500cb5.setIcon(icon_6d372a9c365fa71e0913c10b4eb5032d);
+            
+    
+            var marker_7bbad1b027b9c14b37753fd79ad1d73d = L.marker(
+                [2.7790426, 32.2959219],
+                {
+}
+            ).addTo(map_564ffd4332112f7140462e6ef89c1017);
+        
+    
+            var icon_facdf68ade0405a3636c784bceca2209 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_ced193913aac1e838241911700266227 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_b0ec9e437d79a3d8e6e6bb24423b9055 = $(`<div id="html_b0ec9e437d79a3d8e6e6bb24423b9055" style="width: 100.0%; height: 100.0%;">plot 2 Princess Rd, Gulu, Uganda</div>`)[0];
+                popup_ced193913aac1e838241911700266227.setContent(html_b0ec9e437d79a3d8e6e6bb24423b9055);
+            
+        
+
+        marker_7bbad1b027b9c14b37753fd79ad1d73d.bindPopup(popup_ced193913aac1e838241911700266227)
+        ;
+
+        
+    
+    
+                marker_7bbad1b027b9c14b37753fd79ad1d73d.setIcon(icon_facdf68ade0405a3636c784bceca2209);
+            
+    
+            var marker_8f727f6a24da417d094d9cef00d63e30 = L.marker(
+                [0.37, 32.0],
+                {
+}
+            ).addTo(map_564ffd4332112f7140462e6ef89c1017);
+        
+    
+            var icon_b589e7d0515f088ded51324a2e744c74 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_2e07ae7022905d7ca27b2e53ba6d422f = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_fc49ef67cf574a93205b784f3c3c37a7 = $(`<div id="html_fc49ef67cf574a93205b784f3c3c37a7" style="width: 100.0%; height: 100.0%;">9GFC+5J3, Nansana, Uganda</div>`)[0];
+                popup_2e07ae7022905d7ca27b2e53ba6d422f.setContent(html_fc49ef67cf574a93205b784f3c3c37a7);
+            
+        
+
+        marker_8f727f6a24da417d094d9cef00d63e30.bindPopup(popup_2e07ae7022905d7ca27b2e53ba6d422f)
+        ;
+
+        
+    
+    
+                marker_8f727f6a24da417d094d9cef00d63e30.setIcon(icon_b589e7d0515f088ded51324a2e744c74);
+            
+    
+            var marker_747cf3388b4cbe127f64b9777d40c4f1 = L.marker(
+                [0.37, 32.0],
+                {
+}
+            ).addTo(map_564ffd4332112f7140462e6ef89c1017);
+        
+    
+            var icon_bf9f990157ebaafd336049409cfd3328 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_f7c1e1eed1957a4e52e957976c336eee = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_cbb49452aafa2087ee5742b6d313f945 = $(`<div id="html_cbb49452aafa2087ee5742b6d313f945" style="width: 100.0%; height: 100.0%;">9GCG+PQW, Nansana, Uganda</div>`)[0];
+                popup_f7c1e1eed1957a4e52e957976c336eee.setContent(html_cbb49452aafa2087ee5742b6d313f945);
+            
+        
+
+        marker_747cf3388b4cbe127f64b9777d40c4f1.bindPopup(popup_f7c1e1eed1957a4e52e957976c336eee)
+        ;
+
+        
+    
+    
+                marker_747cf3388b4cbe127f64b9777d40c4f1.setIcon(icon_bf9f990157ebaafd336049409cfd3328);
+            
+    
+            var marker_b27484d515146eebf37197ef3773b9a9 = L.marker(
+                [0.31628, 32.58219],
+                {
+}
+            ).addTo(map_564ffd4332112f7140462e6ef89c1017);
+        
+    
+            var icon_33c9920e8432ef81720b005a921548f1 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_99af374b2c8cf0fa33f3b1533f8eb8a8 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f6f4f5c2ebd2a1d4e35ed18bede97074 = $(`<div id="html_f6f4f5c2ebd2a1d4e35ed18bede97074" style="width: 100.0%; height: 100.0%;">Kulambilo tuba, Kulambiro Ring Rd, Kampala, Uganda</div>`)[0];
+                popup_99af374b2c8cf0fa33f3b1533f8eb8a8.setContent(html_f6f4f5c2ebd2a1d4e35ed18bede97074);
+            
+        
+
+        marker_b27484d515146eebf37197ef3773b9a9.bindPopup(popup_99af374b2c8cf0fa33f3b1533f8eb8a8)
+        ;
+
+        
+    
+    
+                marker_b27484d515146eebf37197ef3773b9a9.setIcon(icon_33c9920e8432ef81720b005a921548f1);
+            
+    
+            var marker_cdabca3216a3bfb3ded6d670ef95102b = L.marker(
+                [0.31628, 32.58219],
+                {
+}
+            ).addTo(map_564ffd4332112f7140462e6ef89c1017);
+        
+    
+            var icon_510490ce3dff29401315ccedd6b6ee9c = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_ad4255bff9c3e598e9c671ee713763e7 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_8999f8eec59a8f9c9784ac853b9b8efa = $(`<div id="html_8999f8eec59a8f9c9784ac853b9b8efa" style="width: 100.0%; height: 100.0%;">8HQP+5WC, Kampala, Uganda</div>`)[0];
+                popup_ad4255bff9c3e598e9c671ee713763e7.setContent(html_8999f8eec59a8f9c9784ac853b9b8efa);
+            
+        
+
+        marker_cdabca3216a3bfb3ded6d670ef95102b.bindPopup(popup_ad4255bff9c3e598e9c671ee713763e7)
+        ;
+
+        
+    
+    
+                marker_cdabca3216a3bfb3ded6d670ef95102b.setIcon(icon_510490ce3dff29401315ccedd6b6ee9c);
+            
+    
+            var marker_3015f09ab3127487150b30cfd59f3df1 = L.marker(
+                [0.31628, 32.58219],
+                {
+}
+            ).addTo(map_564ffd4332112f7140462e6ef89c1017);
+        
+    
+            var icon_cc1f1aee1d3926e3946c0b80329e423a = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_14c1a32885ce912a104c9349997c1630 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_1388bb6129b23dcd90b023d9d00214b4 = $(`<div id="html_1388bb6129b23dcd90b023d9d00214b4" style="width: 100.0%; height: 100.0%;">9G8G+9F3, Hoima Rd, Kampala, Uganda</div>`)[0];
+                popup_14c1a32885ce912a104c9349997c1630.setContent(html_1388bb6129b23dcd90b023d9d00214b4);
+            
+        
+
+        marker_3015f09ab3127487150b30cfd59f3df1.bindPopup(popup_14c1a32885ce912a104c9349997c1630)
+        ;
+
+        
+    
+    
+                marker_3015f09ab3127487150b30cfd59f3df1.setIcon(icon_cc1f1aee1d3926e3946c0b80329e423a);
+            
+    
+            var marker_1940f36598f4672c7408c2e562db1159 = L.marker(
+                [-0.60467, 30.64851],
+                {
+}
+            ).addTo(map_564ffd4332112f7140462e6ef89c1017);
+        
+    
+            var icon_7992779d71a3a343a1bcc40c92a0bd4f = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_23c3bd5629b38afe98d1e85bae61b369 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_667572bba9343f830cfb8a9eb03a085a = $(`<div id="html_667572bba9343f830cfb8a9eb03a085a" style="width: 100.0%; height: 100.0%;">9MX9+J93, Mbarara, Uganda</div>`)[0];
+                popup_23c3bd5629b38afe98d1e85bae61b369.setContent(html_667572bba9343f830cfb8a9eb03a085a);
+            
+        
+
+        marker_1940f36598f4672c7408c2e562db1159.bindPopup(popup_23c3bd5629b38afe98d1e85bae61b369)
+        ;
+
+        
+    
+    
+                marker_1940f36598f4672c7408c2e562db1159.setIcon(icon_7992779d71a3a343a1bcc40c92a0bd4f);
+            
+    
+            var marker_ed51d8c14aba74114bf458b2a9fee0ab = L.marker(
+                [0.3424016, 32.5908159],
+                {
+}
+            ).addTo(map_564ffd4332112f7140462e6ef89c1017);
+        
+    
+            var icon_430d6484c72aa5428586a4018aa869a5 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_dacef470c4a21e7e676d8d9dd8d09484 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_a33c5cdea49e8e6845f7d4edd0a3182a = $(`<div id="html_a33c5cdea49e8e6845f7d4edd0a3182a" style="width: 100.0%; height: 100.0%;">Bukoto St, Kampala, Uganda</div>`)[0];
+                popup_dacef470c4a21e7e676d8d9dd8d09484.setContent(html_a33c5cdea49e8e6845f7d4edd0a3182a);
+            
+        
+
+        marker_ed51d8c14aba74114bf458b2a9fee0ab.bindPopup(popup_dacef470c4a21e7e676d8d9dd8d09484)
+        ;
+
+        
+    
+    
+                marker_ed51d8c14aba74114bf458b2a9fee0ab.setIcon(icon_430d6484c72aa5428586a4018aa869a5);
+            
+    
+            var marker_1438f9a94ac48456e348a531f4065d60 = L.marker(
+                [-0.60467, 30.64851],
+                {
+}
+            ).addTo(map_564ffd4332112f7140462e6ef89c1017);
+        
+    
+            var icon_0f6b97c8fd7cadafe38219dd495f7642 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_3afe2286e1cfd949f6fa9c15a577ab0b = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_fbbdda7da1ebdc382a1d786ad20c50a2 = $(`<div id="html_fbbdda7da1ebdc382a1d786ad20c50a2" style="width: 100.0%; height: 100.0%;">Unnamed Road, Mbarara, Uganda</div>`)[0];
+                popup_3afe2286e1cfd949f6fa9c15a577ab0b.setContent(html_fbbdda7da1ebdc382a1d786ad20c50a2);
+            
+        
+
+        marker_1438f9a94ac48456e348a531f4065d60.bindPopup(popup_3afe2286e1cfd949f6fa9c15a577ab0b)
+        ;
+
+        
+    
+    
+                marker_1438f9a94ac48456e348a531f4065d60.setIcon(icon_0f6b97c8fd7cadafe38219dd495f7642);
+            
+    
+            var marker_2f23b7315f6a303d4bc4d107e044cb62 = L.marker(
+                [0.3467173, 32.6113465],
+                {
+}
+            ).addTo(map_564ffd4332112f7140462e6ef89c1017);
+        
+    
+            var icon_670e1daa9743c3cc3cbb68e161b07272 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_046400c701bba1c2e6fe5f323b35bdba = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_ec9f6f3f6e709243693431c0a351d1c9 = $(`<div id="html_ec9f6f3f6e709243693431c0a351d1c9" style="width: 100.0%; height: 100.0%;">195 Ntinda - Kisaasi Rd, Kampala, Uganda</div>`)[0];
+                popup_046400c701bba1c2e6fe5f323b35bdba.setContent(html_ec9f6f3f6e709243693431c0a351d1c9);
+            
+        
+
+        marker_2f23b7315f6a303d4bc4d107e044cb62.bindPopup(popup_046400c701bba1c2e6fe5f323b35bdba)
+        ;
+
+        
+    
+    
+                marker_2f23b7315f6a303d4bc4d107e044cb62.setIcon(icon_670e1daa9743c3cc3cbb68e161b07272);
+            
+    
+            var marker_25f44d91e8106a43f187032e2f1d1e06 = L.marker(
+                [0.3427646, 32.5923783],
+                {
+}
+            ).addTo(map_564ffd4332112f7140462e6ef89c1017);
+        
+    
+            var icon_51473e2f8b1282750dc43aad1980129a = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_c58da2798277d6500154cd91c09dac09 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_b587d80553ef2bf8320d456bca39ad6d = $(`<div id="html_b587d80553ef2bf8320d456bca39ad6d" style="width: 100.0%; height: 100.0%;">96b Bukoto St, Kampala, Uganda</div>`)[0];
+                popup_c58da2798277d6500154cd91c09dac09.setContent(html_b587d80553ef2bf8320d456bca39ad6d);
+            
+        
+
+        marker_25f44d91e8106a43f187032e2f1d1e06.bindPopup(popup_c58da2798277d6500154cd91c09dac09)
+        ;
+
+        
+    
+    
+                marker_25f44d91e8106a43f187032e2f1d1e06.setIcon(icon_51473e2f8b1282750dc43aad1980129a);
+            
+    
+            var marker_bf3b4d9a95aa953123a3c9ebafd575e7 = L.marker(
+                [0.37, 32.0],
+                {
+}
+            ).addTo(map_564ffd4332112f7140462e6ef89c1017);
+        
+    
+            var icon_c90a9228ffa70f5721fefe7a50546727 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_bf69b14fa5f68d7d11b5971160d0e503 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_3ea9f681d97e2bb82dd761998efcbc09 = $(`<div id="html_3ea9f681d97e2bb82dd761998efcbc09" style="width: 100.0%; height: 100.0%;">9GFC+5J3, Nansana, Uganda</div>`)[0];
+                popup_bf69b14fa5f68d7d11b5971160d0e503.setContent(html_3ea9f681d97e2bb82dd761998efcbc09);
+            
+        
+
+        marker_bf3b4d9a95aa953123a3c9ebafd575e7.bindPopup(popup_bf69b14fa5f68d7d11b5971160d0e503)
+        ;
+
+        
+    
+    
+                marker_bf3b4d9a95aa953123a3c9ebafd575e7.setIcon(icon_c90a9228ffa70f5721fefe7a50546727);
+            
+    
+            var marker_e4d7d2a3b1b67193766a167342cad32f = L.marker(
+                [0.31628, 32.58219],
+                {
+}
+            ).addTo(map_564ffd4332112f7140462e6ef89c1017);
+        
+    
+            var icon_0aa0642e68727e6481cdaf462c6ff3f7 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_7c7b285380d90704ee9f8f82d3294f68 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f314ebe59c0abe441628678a5d644fa3 = $(`<div id="html_f314ebe59c0abe441628678a5d644fa3" style="width: 100.0%; height: 100.0%;">9J7R+9W8, Kampala, Uganda</div>`)[0];
+                popup_7c7b285380d90704ee9f8f82d3294f68.setContent(html_f314ebe59c0abe441628678a5d644fa3);
+            
+        
+
+        marker_e4d7d2a3b1b67193766a167342cad32f.bindPopup(popup_7c7b285380d90704ee9f8f82d3294f68)
+        ;
+
+        
+    
+    
+                marker_e4d7d2a3b1b67193766a167342cad32f.setIcon(icon_0aa0642e68727e6481cdaf462c6ff3f7);
+            
+    
+            var marker_5fa8cc91e918154c7478f284449fc5d6 = L.marker(
+                [0.3510945, 32.5722126],
+                {
+}
+            ).addTo(map_564ffd4332112f7140462e6ef89c1017);
+        
+    
+            var icon_a7f92a8bad4fef75e0d3c292e5036cd9 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_5bc4443b918cc1dbbf00f600afdf3b46 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_d3e0184d1999bab0c66b74c770dc0029 = $(`<div id="html_d3e0184d1999bab0c66b74c770dc0029" style="width: 100.0%; height: 100.0%;">Kalerwe Market, Kampala, Uganda</div>`)[0];
+                popup_5bc4443b918cc1dbbf00f600afdf3b46.setContent(html_d3e0184d1999bab0c66b74c770dc0029);
+            
+        
+
+        marker_5fa8cc91e918154c7478f284449fc5d6.bindPopup(popup_5bc4443b918cc1dbbf00f600afdf3b46)
+        ;
+
+        
+    
+    
+                marker_5fa8cc91e918154c7478f284449fc5d6.setIcon(icon_a7f92a8bad4fef75e0d3c292e5036cd9);
+            
+    
+            var marker_69b57ed7e91e2d6649d58c2583a65adb = L.marker(
+                [0.37, 32.0],
+                {
+}
+            ).addTo(map_564ffd4332112f7140462e6ef89c1017);
+        
+    
+            var icon_190fa5ec3f3bf545f3e25ab3dc7a40da = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_1d226e4b7dcded1392fcd6a81f165abd = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_035c478df514833978d3385aeb00848d = $(`<div id="html_035c478df514833978d3385aeb00848d" style="width: 100.0%; height: 100.0%;">9GFC+5J3, Nansana, Uganda</div>`)[0];
+                popup_1d226e4b7dcded1392fcd6a81f165abd.setContent(html_035c478df514833978d3385aeb00848d);
+            
+        
+
+        marker_69b57ed7e91e2d6649d58c2583a65adb.bindPopup(popup_1d226e4b7dcded1392fcd6a81f165abd)
+        ;
+
+        
+    
+    
+                marker_69b57ed7e91e2d6649d58c2583a65adb.setIcon(icon_190fa5ec3f3bf545f3e25ab3dc7a40da);
+            
+    
+            var marker_cd9225291237e017f4cf156e47ecc805 = L.marker(
+                [1.25, 32.5],
+                {
+}
+            ).addTo(map_564ffd4332112f7140462e6ef89c1017);
+        
+    
+            var icon_f4dfd067f70b2ebc1b9a102c75e7d813 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_78d4f798bc58aa2ccc6912fe26354ec5 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_3d2e33064dc48864ba9c48ca141c2fb1 = $(`<div id="html_3d2e33064dc48864ba9c48ca141c2fb1" style="width: 100.0%; height: 100.0%;">7G34+4QQ, Kasenge, Uganda</div>`)[0];
+                popup_78d4f798bc58aa2ccc6912fe26354ec5.setContent(html_3d2e33064dc48864ba9c48ca141c2fb1);
+            
+        
+
+        marker_cd9225291237e017f4cf156e47ecc805.bindPopup(popup_78d4f798bc58aa2ccc6912fe26354ec5)
+        ;
+
+        
+    
+    
+                marker_cd9225291237e017f4cf156e47ecc805.setIcon(icon_f4dfd067f70b2ebc1b9a102c75e7d813);
+            
+    
+            var marker_8053b170db5940e667883ee5c092e015 = L.marker(
+                [-0.6376238, 31.7655258],
+                {
+}
+            ).addTo(map_564ffd4332112f7140462e6ef89c1017);
+        
+    
+            var icon_313af18ede00651208a4da7ab375d467 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_43328164ea72d3622229fc67eac3b9ea = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_be2d9680cdfc9e28fd8cc6b48754bc82 = $(`<div id="html_be2d9680cdfc9e28fd8cc6b48754bc82" style="width: 100.0%; height: 100.0%;">Ddimo - Kalisizo Rd, Uganda</div>`)[0];
+                popup_43328164ea72d3622229fc67eac3b9ea.setContent(html_be2d9680cdfc9e28fd8cc6b48754bc82);
+            
+        
+
+        marker_8053b170db5940e667883ee5c092e015.bindPopup(popup_43328164ea72d3622229fc67eac3b9ea)
+        ;
+
+        
+    
+    
+                marker_8053b170db5940e667883ee5c092e015.setIcon(icon_313af18ede00651208a4da7ab375d467);
+            
+    
+            var marker_d0d8876ba13d0b6e736ccb62d2b05244 = L.marker(
+                [0.3979221, 32.7326769],
+                {
+}
+            ).addTo(map_564ffd4332112f7140462e6ef89c1017);
+        
+    
+            var icon_e25199b9c0801bfac7ac2ff4d78a22dd = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_4e59720255e149e5a1bbf100143527bf = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_da873080bfa974778d49705c71b362d9 = $(`<div id="html_da873080bfa974778d49705c71b362d9" style="width: 100.0%; height: 100.0%;">Central Division, Kampala, Kampala, Uganda</div>`)[0];
+                popup_4e59720255e149e5a1bbf100143527bf.setContent(html_da873080bfa974778d49705c71b362d9);
+            
+        
+
+        marker_d0d8876ba13d0b6e736ccb62d2b05244.bindPopup(popup_4e59720255e149e5a1bbf100143527bf)
+        ;
+
+        
+    
+    
+                marker_d0d8876ba13d0b6e736ccb62d2b05244.setIcon(icon_e25199b9c0801bfac7ac2ff4d78a22dd);
+            
+    
+            var marker_31e9f1d6597e91498e6dc96bd45ee815 = L.marker(
+                [0.3424016, 32.5908159],
+                {
+}
+            ).addTo(map_564ffd4332112f7140462e6ef89c1017);
+        
+    
+            var icon_de7c50682b85a33c82e6b641ce07fa45 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_51683fcfd4b15aaad0f3ba93079166e7 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_e2bb20210a5778b0a63ea4f258c839a3 = $(`<div id="html_e2bb20210a5778b0a63ea4f258c839a3" style="width: 100.0%; height: 100.0%;">Bukoto St, Kampala, Uganda</div>`)[0];
+                popup_51683fcfd4b15aaad0f3ba93079166e7.setContent(html_e2bb20210a5778b0a63ea4f258c839a3);
+            
+        
+
+        marker_31e9f1d6597e91498e6dc96bd45ee815.bindPopup(popup_51683fcfd4b15aaad0f3ba93079166e7)
+        ;
+
+        
+    
+    
+                marker_31e9f1d6597e91498e6dc96bd45ee815.setIcon(icon_de7c50682b85a33c82e6b641ce07fa45);
+            
+    
+            var marker_011c10dec40a18c03d47ff9e7f03c208 = L.marker(
+                [2.7767442, 32.3232717],
+                {
+}
+            ).addTo(map_564ffd4332112f7140462e6ef89c1017);
+        
+    
+            var icon_e7b3626b3bc7e649ded2eaa90f9ded87 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_753215e52fe38f5a0cb49c8932e70738 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_e53c1a8b3531e1c3ad99670a1051c716 = $(`<div id="html_e53c1a8b3531e1c3ad99670a1051c716" style="width: 100.0%; height: 100.0%;">Pece-Laroo Division, Gulu, Uganda</div>`)[0];
+                popup_753215e52fe38f5a0cb49c8932e70738.setContent(html_e53c1a8b3531e1c3ad99670a1051c716);
+            
+        
+
+        marker_011c10dec40a18c03d47ff9e7f03c208.bindPopup(popup_753215e52fe38f5a0cb49c8932e70738)
+        ;
+
+        
+    
+    
+                marker_011c10dec40a18c03d47ff9e7f03c208.setIcon(icon_e7b3626b3bc7e649ded2eaa90f9ded87);
+            
+    
+            var marker_c65814fa026df61bbc28be889892c02e = L.marker(
+                [1.25, 32.5],
+                {
+}
+            ).addTo(map_564ffd4332112f7140462e6ef89c1017);
+        
+    
+            var icon_259ee417cfadeb10ff1164989f6d389a = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_d3e6f1cbf8cca2744897c6695f695c3a = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_b4c0fddb2810a343bd80840c3652f60f = $(`<div id="html_b4c0fddb2810a343bd80840c3652f60f" style="width: 100.0%; height: 100.0%;">Mbarara - Masaka Rd, Nkoni Town, Uganda</div>`)[0];
+                popup_d3e6f1cbf8cca2744897c6695f695c3a.setContent(html_b4c0fddb2810a343bd80840c3652f60f);
+            
+        
+
+        marker_c65814fa026df61bbc28be889892c02e.bindPopup(popup_d3e6f1cbf8cca2744897c6695f695c3a)
+        ;
+
+        
+    
+    
+                marker_c65814fa026df61bbc28be889892c02e.setIcon(icon_259ee417cfadeb10ff1164989f6d389a);
+            
+    
+            var marker_cbb3e1365824f3d29d8cbeab6d22611f = L.marker(
+                [1.25, 32.5],
+                {
+}
+            ).addTo(map_564ffd4332112f7140462e6ef89c1017);
+        
+    
+            var icon_5a9f23c3d0d841269887e75a41e5a47b = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_6bc7a37d634c8c80cde4bbdfdc2dd7f7 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_fd9d5def34e0c787dc3cd58dfeb821c0 = $(`<div id="html_fd9d5def34e0c787dc3cd58dfeb821c0" style="width: 100.0%; height: 100.0%;">MJ4Q+QRF, Nkoni Town, Uganda</div>`)[0];
+                popup_6bc7a37d634c8c80cde4bbdfdc2dd7f7.setContent(html_fd9d5def34e0c787dc3cd58dfeb821c0);
+            
+        
+
+        marker_cbb3e1365824f3d29d8cbeab6d22611f.bindPopup(popup_6bc7a37d634c8c80cde4bbdfdc2dd7f7)
+        ;
+
+        
+    
+    
+                marker_cbb3e1365824f3d29d8cbeab6d22611f.setIcon(icon_5a9f23c3d0d841269887e75a41e5a47b);
+            
+    
+            var marker_2962016d3d843546bf89b6f1376aca94 = L.marker(
+                [0.35333, 32.75528],
+                {
+}
+            ).addTo(map_564ffd4332112f7140462e6ef89c1017);
+        
+    
+            var icon_9de4727f1685f183b80a5f667d14ed71 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_2071f8cc23afcdc228b90bda3cc3e478 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_2691f54aae050521475d5e48ce08eb84 = $(`<div id="html_2691f54aae050521475d5e48ce08eb84" style="width: 100.0%; height: 100.0%;">9Q26+PFH, Mukono, Uganda</div>`)[0];
+                popup_2071f8cc23afcdc228b90bda3cc3e478.setContent(html_2691f54aae050521475d5e48ce08eb84);
+            
+        
+
+        marker_2962016d3d843546bf89b6f1376aca94.bindPopup(popup_2071f8cc23afcdc228b90bda3cc3e478)
+        ;
+
+        
+    
+    
+                marker_2962016d3d843546bf89b6f1376aca94.setIcon(icon_9de4727f1685f183b80a5f667d14ed71);
+            
+    
+            var marker_226eecf3d4d782a6565af8f29aea7b65 = L.marker(
+                [0.31628, 32.58219],
+                {
+}
+            ).addTo(map_564ffd4332112f7140462e6ef89c1017);
+        
+    
+            var icon_6b03f18910781288fc5c22946f5d1631 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_691886e6955a0bbf0d7f3df78fe78ef6 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_ca2a12aa7fd257b5ff0944f474d361aa = $(`<div id="html_ca2a12aa7fd257b5ff0944f474d361aa" style="width: 100.0%; height: 100.0%;">9G8F+QJ3, Hoima Rd, Kampala, Uganda</div>`)[0];
+                popup_691886e6955a0bbf0d7f3df78fe78ef6.setContent(html_ca2a12aa7fd257b5ff0944f474d361aa);
+            
+        
+
+        marker_226eecf3d4d782a6565af8f29aea7b65.bindPopup(popup_691886e6955a0bbf0d7f3df78fe78ef6)
+        ;
+
+        
+    
+    
+                marker_226eecf3d4d782a6565af8f29aea7b65.setIcon(icon_6b03f18910781288fc5c22946f5d1631);
+            
+    
+            var marker_c65e437f45e65e328d5f58841d89baea = L.marker(
+                [0.2838672, 32.6159847],
+                {
+}
+            ).addTo(map_564ffd4332112f7140462e6ef89c1017);
+        
+    
+            var icon_1e5a24f3f6b5ffb0887dc0080f1a1911 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_613b5e5dbad3b5be4cc6d390b1edb477 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_08ba39fa5c8da827b41c5ed9104374cf = $(`<div id="html_08ba39fa5c8da827b41c5ed9104374cf" style="width: 100.0%; height: 100.0%;">Kansanga - Kiwafu Rd, Kampala, Uganda</div>`)[0];
+                popup_613b5e5dbad3b5be4cc6d390b1edb477.setContent(html_08ba39fa5c8da827b41c5ed9104374cf);
+            
+        
+
+        marker_c65e437f45e65e328d5f58841d89baea.bindPopup(popup_613b5e5dbad3b5be4cc6d390b1edb477)
+        ;
+
+        
+    
+    
+                marker_c65e437f45e65e328d5f58841d89baea.setIcon(icon_1e5a24f3f6b5ffb0887dc0080f1a1911);
+            
+    
+            var marker_c2e6f622e55d414b59baaa978ad07da9 = L.marker(
+                [-0.3329418, 31.7056952],
+                {
+}
+            ).addTo(map_564ffd4332112f7140462e6ef89c1017);
+        
+    
+            var icon_5794d83e7411d3232fc7725f731b1ad6 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_9d4c6585decfcb58b402b88b6b668a3c = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_e7fb8e29cba3b6b1b89162a96896c90f = $(`<div id="html_e7fb8e29cba3b6b1b89162a96896c90f" style="width: 100.0%; height: 100.0%;">Mandela Road, Mbarara, Uganda</div>`)[0];
+                popup_9d4c6585decfcb58b402b88b6b668a3c.setContent(html_e7fb8e29cba3b6b1b89162a96896c90f);
+            
+        
+
+        marker_c2e6f622e55d414b59baaa978ad07da9.bindPopup(popup_9d4c6585decfcb58b402b88b6b668a3c)
+        ;
+
+        
+    
+    
+                marker_c2e6f622e55d414b59baaa978ad07da9.setIcon(icon_5794d83e7411d3232fc7725f731b1ad6);
+            
+    
+            var marker_382713749e3034f4b2b7a2fe0b5c9493 = L.marker(
+                [0.0865018, 32.5470988],
+                {
+}
+            ).addTo(map_564ffd4332112f7140462e6ef89c1017);
+        
+    
+            var icon_a2810c30db505db524538b0d2960595b = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_e6773b8bc87d3301dad069a0226cc783 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_0440b3061d35b3e88a56cb9c49c47559 = $(`<div id="html_0440b3061d35b3e88a56cb9c49c47559" style="width: 100.0%; height: 100.0%;">Garuga Rd, Uganda</div>`)[0];
+                popup_e6773b8bc87d3301dad069a0226cc783.setContent(html_0440b3061d35b3e88a56cb9c49c47559);
+            
+        
+
+        marker_382713749e3034f4b2b7a2fe0b5c9493.bindPopup(popup_e6773b8bc87d3301dad069a0226cc783)
+        ;
+
+        
+    
+    
+                marker_382713749e3034f4b2b7a2fe0b5c9493.setIcon(icon_a2810c30db505db524538b0d2960595b);
+            
+    
+            var marker_67644077ac32cb9bcf529c38d17541c4 = L.marker(
+                [0.0865018, 32.5470988],
+                {
+}
+            ).addTo(map_564ffd4332112f7140462e6ef89c1017);
+        
+    
+            var icon_3d8e2f44b7563666b4d17a986dee6fc6 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_5fb0786fdfa8e6ae1f31dfa9b3da4e35 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_b99483a334e23b921e1bca1574138b15 = $(`<div id="html_b99483a334e23b921e1bca1574138b15" style="width: 100.0%; height: 100.0%;">Garuga Rd, Uganda</div>`)[0];
+                popup_5fb0786fdfa8e6ae1f31dfa9b3da4e35.setContent(html_b99483a334e23b921e1bca1574138b15);
+            
+        
+
+        marker_67644077ac32cb9bcf529c38d17541c4.bindPopup(popup_5fb0786fdfa8e6ae1f31dfa9b3da4e35)
+        ;
+
+        
+    
+    
+                marker_67644077ac32cb9bcf529c38d17541c4.setIcon(icon_3d8e2f44b7563666b4d17a986dee6fc6);
+            
+    
+            var marker_ac9d5c4e11c13932a6d7ef457cf48b5c = L.marker(
+                [0.3467173, 32.6113465],
+                {
+}
+            ).addTo(map_564ffd4332112f7140462e6ef89c1017);
+        
+    
+            var icon_5bff073e007fe43cdba702c81313a15c = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_2024b94b0e89d27238cac4d0a2f14cec = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_0a1ff074e149b2cd9e541aa8496fd66d = $(`<div id="html_0a1ff074e149b2cd9e541aa8496fd66d" style="width: 100.0%; height: 100.0%;">181b Ntinda - Kisaasi Rd, Kampala, Uganda</div>`)[0];
+                popup_2024b94b0e89d27238cac4d0a2f14cec.setContent(html_0a1ff074e149b2cd9e541aa8496fd66d);
+            
+        
+
+        marker_ac9d5c4e11c13932a6d7ef457cf48b5c.bindPopup(popup_2024b94b0e89d27238cac4d0a2f14cec)
+        ;
+
+        
+    
+    
+                marker_ac9d5c4e11c13932a6d7ef457cf48b5c.setIcon(icon_5bff073e007fe43cdba702c81313a15c);
+            
+    
+            var marker_d94d023aab42840a904d36d9f5fcff7b = L.marker(
+                [0.31628, 32.58219],
+                {
+}
+            ).addTo(map_564ffd4332112f7140462e6ef89c1017);
+        
+    
+            var icon_d0169756c68e63f538569d60b1a1b5ff = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_c3f66dd6c3d234449980e375fa1569b7 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_a178f4ba94e13ca1fe4cec34c30bfa17 = $(`<div id="html_a178f4ba94e13ca1fe4cec34c30bfa17" style="width: 100.0%; height: 100.0%;">9G9F+566, Kampala, Uganda</div>`)[0];
+                popup_c3f66dd6c3d234449980e375fa1569b7.setContent(html_a178f4ba94e13ca1fe4cec34c30bfa17);
+            
+        
+
+        marker_d94d023aab42840a904d36d9f5fcff7b.bindPopup(popup_c3f66dd6c3d234449980e375fa1569b7)
+        ;
+
+        
+    
+    
+                marker_d94d023aab42840a904d36d9f5fcff7b.setIcon(icon_d0169756c68e63f538569d60b1a1b5ff);
+            
+    
+            var marker_6b3d6aebafa96340ed60ed6bd11c0173 = L.marker(
+                [1.25, 32.5],
+                {
+}
+            ).addTo(map_564ffd4332112f7140462e6ef89c1017);
+        
+    
+            var icon_afbc8e50a72000d37f9f18bd6031ca70 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_f1d5d0a89fea72447da3653b4421ce5f = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_b5ea16de384535d7877c3367ac85b1ff = $(`<div id="html_b5ea16de384535d7877c3367ac85b1ff" style="width: 100.0%; height: 100.0%;">7FRH+C3H, Nabbingo, Uganda</div>`)[0];
+                popup_f1d5d0a89fea72447da3653b4421ce5f.setContent(html_b5ea16de384535d7877c3367ac85b1ff);
+            
+        
+
+        marker_6b3d6aebafa96340ed60ed6bd11c0173.bindPopup(popup_f1d5d0a89fea72447da3653b4421ce5f)
+        ;
+
+        
+    
+    
+                marker_6b3d6aebafa96340ed60ed6bd11c0173.setIcon(icon_afbc8e50a72000d37f9f18bd6031ca70);
+            
+    
+            var marker_1baeaeb42a2385f35919f9de8432f3de = L.marker(
+                [0.3206703, 32.5766536],
+                {
+}
+            ).addTo(map_564ffd4332112f7140462e6ef89c1017);
+        
+    
+            var icon_f15af79dc69dec501941a30c9bc009bc = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_5d6837a805d9d174d4099de40e8fe5f8 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_4f665ade032ec8b07bf3123b7cf7782e = $(`<div id="html_4f665ade032ec8b07bf3123b7cf7782e" style="width: 100.0%; height: 100.0%;">20a Rubaga Rd, Kampala, Uganda</div>`)[0];
+                popup_5d6837a805d9d174d4099de40e8fe5f8.setContent(html_4f665ade032ec8b07bf3123b7cf7782e);
+            
+        
+
+        marker_1baeaeb42a2385f35919f9de8432f3de.bindPopup(popup_5d6837a805d9d174d4099de40e8fe5f8)
+        ;
+
+        
+    
+    
+                marker_1baeaeb42a2385f35919f9de8432f3de.setIcon(icon_f15af79dc69dec501941a30c9bc009bc);
+            
+    
+            var marker_734bb6e0c8d383f5ef8c7056e8981cf0 = L.marker(
+                [0.3467173, 32.6113465],
+                {
+}
+            ).addTo(map_564ffd4332112f7140462e6ef89c1017);
+        
+    
+            var icon_31af571f36a22ed1d2ff0e1970f8b115 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_c193527b61654b90978148ac275516cf = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_5e4f5b21bd211611029bb89cabf7f266 = $(`<div id="html_5e4f5b21bd211611029bb89cabf7f266" style="width: 100.0%; height: 100.0%;">177 Ntinda - Kisaasi Rd, Kampala, Uganda</div>`)[0];
+                popup_c193527b61654b90978148ac275516cf.setContent(html_5e4f5b21bd211611029bb89cabf7f266);
+            
+        
+
+        marker_734bb6e0c8d383f5ef8c7056e8981cf0.bindPopup(popup_c193527b61654b90978148ac275516cf)
+        ;
+
+        
+    
+    
+                marker_734bb6e0c8d383f5ef8c7056e8981cf0.setIcon(icon_31af571f36a22ed1d2ff0e1970f8b115);
+            
+    
+            var marker_4c67c5f8ab15e47a7189173eca23af0b = L.marker(
+                [1.25, 32.5],
+                {
+}
+            ).addTo(map_564ffd4332112f7140462e6ef89c1017);
+        
+    
+            var icon_d0df9507fee99ade4110feed57e27fed = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_76927b4b8c66dcb08d4b2e946feea055 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_b19942d36f89270ec97bcd47703fea39 = $(`<div id="html_b19942d36f89270ec97bcd47703fea39" style="width: 100.0%; height: 100.0%;">MJ4Q+QRF, Nkoni Town, Uganda</div>`)[0];
+                popup_76927b4b8c66dcb08d4b2e946feea055.setContent(html_b19942d36f89270ec97bcd47703fea39);
+            
+        
+
+        marker_4c67c5f8ab15e47a7189173eca23af0b.bindPopup(popup_76927b4b8c66dcb08d4b2e946feea055)
+        ;
+
+        
+    
+    
+                marker_4c67c5f8ab15e47a7189173eca23af0b.setIcon(icon_d0df9507fee99ade4110feed57e27fed);
+            
+    
+            var marker_ee1ee51ed3123ac4c56faa954b999867 = L.marker(
+                [-0.60467, 30.64851],
+                {
+}
+            ).addTo(map_564ffd4332112f7140462e6ef89c1017);
+        
+    
+            var icon_2479607c51cd46c2b49b4466cf72e46a = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_91aa46bd643c2de801b049bd800505b5 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_a82869bc2168868d71271b4fcb7df10f = $(`<div id="html_a82869bc2168868d71271b4fcb7df10f" style="width: 100.0%; height: 100.0%;">Unnamed Road, Mbarara, Uganda</div>`)[0];
+                popup_91aa46bd643c2de801b049bd800505b5.setContent(html_a82869bc2168868d71271b4fcb7df10f);
+            
+        
+
+        marker_ee1ee51ed3123ac4c56faa954b999867.bindPopup(popup_91aa46bd643c2de801b049bd800505b5)
+        ;
+
+        
+    
+    
+                marker_ee1ee51ed3123ac4c56faa954b999867.setIcon(icon_2479607c51cd46c2b49b4466cf72e46a);
+            
+    
+            var marker_aa1e3e7cddf078b51dc65af8893da236 = L.marker(
+                [0.3628561, 32.6014977],
+                {
+}
+            ).addTo(map_564ffd4332112f7140462e6ef89c1017);
+        
+    
+            var icon_aa4168bb5ce020319e4bae2ffee9d2d8 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_9eb650d65b91111a9fd8acdf28e7738d = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_966923d4f7ba5b2f6a73ec89d86052a9 = $(`<div id="html_966923d4f7ba5b2f6a73ec89d86052a9" style="width: 100.0%; height: 100.0%;">18U1 Kisota Road, Kampala, Uganda</div>`)[0];
+                popup_9eb650d65b91111a9fd8acdf28e7738d.setContent(html_966923d4f7ba5b2f6a73ec89d86052a9);
+            
+        
+
+        marker_aa1e3e7cddf078b51dc65af8893da236.bindPopup(popup_9eb650d65b91111a9fd8acdf28e7738d)
+        ;
+
+        
+    
+    
+                marker_aa1e3e7cddf078b51dc65af8893da236.setIcon(icon_aa4168bb5ce020319e4bae2ffee9d2d8);
+            
+    
+            var marker_c39d7f733012dfbde8720f6ecc9241cf = L.marker(
+                [0.3628561, 32.6014977],
+                {
+}
+            ).addTo(map_564ffd4332112f7140462e6ef89c1017);
+        
+    
+            var icon_6aa7ae093560c83178d955442c096c5f = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_b3e55985df6d0a329dde3ed4eb95cddd = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_404e1f949fbadf9dcc16ca208a339930 = $(`<div id="html_404e1f949fbadf9dcc16ca208a339930" style="width: 100.0%; height: 100.0%;">18U1 Kisota Road, Kampala, Uganda</div>`)[0];
+                popup_b3e55985df6d0a329dde3ed4eb95cddd.setContent(html_404e1f949fbadf9dcc16ca208a339930);
+            
+        
+
+        marker_c39d7f733012dfbde8720f6ecc9241cf.bindPopup(popup_b3e55985df6d0a329dde3ed4eb95cddd)
+        ;
+
+        
+    
+    
+                marker_c39d7f733012dfbde8720f6ecc9241cf.setIcon(icon_6aa7ae093560c83178d955442c096c5f);
+            
+    
+            var marker_b42a25e567bf7403f0fe37cffd4f3062 = L.marker(
+                [0.2725147, 32.5652971],
+                {
+}
+            ).addTo(map_564ffd4332112f7140462e6ef89c1017);
+        
+    
+            var icon_7be372f99d84854a522e93669a368966 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_307003eccc6711b31ac1e8a10d485b64 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_b3583122cf63a09ef791b17296f66a42 = $(`<div id="html_b3583122cf63a09ef791b17296f66a42" style="width: 100.0%; height: 100.0%;">Kampala - Entebbe Rd, Uganda</div>`)[0];
+                popup_307003eccc6711b31ac1e8a10d485b64.setContent(html_b3583122cf63a09ef791b17296f66a42);
+            
+        
+
+        marker_b42a25e567bf7403f0fe37cffd4f3062.bindPopup(popup_307003eccc6711b31ac1e8a10d485b64)
+        ;
+
+        
+    
+    
+                marker_b42a25e567bf7403f0fe37cffd4f3062.setIcon(icon_7be372f99d84854a522e93669a368966);
+            
+    
+            var marker_9559d8cde1cc4474f1a25d96f3179e7a = L.marker(
+                [0.3467173, 32.6113465],
+                {
+}
+            ).addTo(map_564ffd4332112f7140462e6ef89c1017);
+        
+    
+            var icon_4eac4ca9f9d75764cdc496657c2ce637 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_db526b3ff7a9fe3304d788b5c9c0b08c = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_71ff4134b03b6ac8d8efe5183173d0eb = $(`<div id="html_71ff4134b03b6ac8d8efe5183173d0eb" style="width: 100.0%; height: 100.0%;">177 Ntinda - Kisaasi Rd, Kampala, Uganda</div>`)[0];
+                popup_db526b3ff7a9fe3304d788b5c9c0b08c.setContent(html_71ff4134b03b6ac8d8efe5183173d0eb);
+            
+        
+
+        marker_9559d8cde1cc4474f1a25d96f3179e7a.bindPopup(popup_db526b3ff7a9fe3304d788b5c9c0b08c)
+        ;
+
+        
+    
+    
+                marker_9559d8cde1cc4474f1a25d96f3179e7a.setIcon(icon_4eac4ca9f9d75764cdc496657c2ce637);
+            
+    
+            var marker_8b654a059f2169d470761305c3c86d92 = L.marker(
+                [0.3276958, 32.5738132],
+                {
+}
+            ).addTo(map_564ffd4332112f7140462e6ef89c1017);
+        
+    
+            var icon_759906d49bbf5059b192900d4286e1e7 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_0be93e8fab858c867347bb9ba4d3a2d5 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f15c0afd7925ee4bafefba43d2f3557b = $(`<div id="html_f15c0afd7925ee4bafefba43d2f3557b" style="width: 100.0%; height: 100.0%;">Buddu House, Bombo Rd, Kampala, Uganda</div>`)[0];
+                popup_0be93e8fab858c867347bb9ba4d3a2d5.setContent(html_f15c0afd7925ee4bafefba43d2f3557b);
+            
+        
+
+        marker_8b654a059f2169d470761305c3c86d92.bindPopup(popup_0be93e8fab858c867347bb9ba4d3a2d5)
+        ;
+
+        
+    
+    
+                marker_8b654a059f2169d470761305c3c86d92.setIcon(icon_759906d49bbf5059b192900d4286e1e7);
+            
+    
+            var marker_d24bfb0b02d4855e025a4b47646ed754 = L.marker(
+                [0.35333, 32.75528],
+                {
+}
+            ).addTo(map_564ffd4332112f7140462e6ef89c1017);
+        
+    
+            var icon_2db0a1061b190fc3f5d52c9c3404e31e = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_caaaf9f9bbe8f018edbe7d5103519af4 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_d354ad51b665910914b70b3c884a83f2 = $(`<div id="html_d354ad51b665910914b70b3c884a83f2" style="width: 100.0%; height: 100.0%;">9Q26+PFH, Mukono, Uganda</div>`)[0];
+                popup_caaaf9f9bbe8f018edbe7d5103519af4.setContent(html_d354ad51b665910914b70b3c884a83f2);
+            
+        
+
+        marker_d24bfb0b02d4855e025a4b47646ed754.bindPopup(popup_caaaf9f9bbe8f018edbe7d5103519af4)
+        ;
+
+        
+    
+    
+                marker_d24bfb0b02d4855e025a4b47646ed754.setIcon(icon_2db0a1061b190fc3f5d52c9c3404e31e);
+            
+    
+            var marker_e7047c7e582ad426709738bf5a478936 = L.marker(
+                [0.31628, 32.58219],
+                {
+}
+            ).addTo(map_564ffd4332112f7140462e6ef89c1017);
+        
+    
+            var icon_496d412b0f043e3a97642f8a73163f11 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_57fb19e3659e3f25f43a2ba7a0abe6e8 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_5484f23b7b76a902c2706f62f309d6a4 = $(`<div id="html_5484f23b7b76a902c2706f62f309d6a4" style="width: 100.0%; height: 100.0%;">9H2C+VW9, Kampala, Uganda</div>`)[0];
+                popup_57fb19e3659e3f25f43a2ba7a0abe6e8.setContent(html_5484f23b7b76a902c2706f62f309d6a4);
+            
+        
+
+        marker_e7047c7e582ad426709738bf5a478936.bindPopup(popup_57fb19e3659e3f25f43a2ba7a0abe6e8)
+        ;
+
+        
+    
+    
+                marker_e7047c7e582ad426709738bf5a478936.setIcon(icon_496d412b0f043e3a97642f8a73163f11);
+            
+    
+            var marker_6cf73a8e86303115b55a3c20f4241059 = L.marker(
+                [2.77457, 32.29899],
+                {
+}
+            ).addTo(map_564ffd4332112f7140462e6ef89c1017);
+        
+    
+            var icon_4407b53afd1c96e78e04973d8835eb07 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_9ead7d943a05312b446674e842fdc151 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_ef3cb7f5c8a9981281190f43cbb658d9 = $(`<div id="html_ef3cb7f5c8a9981281190f43cbb658d9" style="width: 100.0%; height: 100.0%;">Q8M8+5J, Gulu, Uganda</div>`)[0];
+                popup_9ead7d943a05312b446674e842fdc151.setContent(html_ef3cb7f5c8a9981281190f43cbb658d9);
+            
+        
+
+        marker_6cf73a8e86303115b55a3c20f4241059.bindPopup(popup_9ead7d943a05312b446674e842fdc151)
+        ;
+
+        
+    
+    
+                marker_6cf73a8e86303115b55a3c20f4241059.setIcon(icon_4407b53afd1c96e78e04973d8835eb07);
+            
+    
+            var marker_bbd39972bf27c91a6c246e02b35fc19c = L.marker(
+                [0.31628, 32.58219],
+                {
+}
+            ).addTo(map_564ffd4332112f7140462e6ef89c1017);
+        
+    
+            var icon_fc8d3bd4896e791b10b0dc3f3177a0e8 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_9ce86ca3b025c03a3a25464c4fa8f7e3 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_31b826e3f63cfaaf6debfb37543b6f3d = $(`<div id="html_31b826e3f63cfaaf6debfb37543b6f3d" style="width: 100.0%; height: 100.0%;">9G7F+989, Kampala, Uganda</div>`)[0];
+                popup_9ce86ca3b025c03a3a25464c4fa8f7e3.setContent(html_31b826e3f63cfaaf6debfb37543b6f3d);
+            
+        
+
+        marker_bbd39972bf27c91a6c246e02b35fc19c.bindPopup(popup_9ce86ca3b025c03a3a25464c4fa8f7e3)
+        ;
+
+        
+    
+    
+                marker_bbd39972bf27c91a6c246e02b35fc19c.setIcon(icon_fc8d3bd4896e791b10b0dc3f3177a0e8);
+            
+    
+            var marker_df3f1cf2e168715d3b537c020a949a6b = L.marker(
+                [0.3177137, 32.5813539],
+                {
+}
+            ).addTo(map_564ffd4332112f7140462e6ef89c1017);
+        
+    
+            var icon_993cd7a765bd906627ccaceb6f103fd2 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_60024cb724f28e68a272303a9fb18742 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_4d549b036d4621db842f2d93724d700d = $(`<div id="html_4d549b036d4621db842f2d93724d700d" style="width: 100.0%; height: 100.0%;">Kampala, Uganda</div>`)[0];
+                popup_60024cb724f28e68a272303a9fb18742.setContent(html_4d549b036d4621db842f2d93724d700d);
+            
+        
+
+        marker_df3f1cf2e168715d3b537c020a949a6b.bindPopup(popup_60024cb724f28e68a272303a9fb18742)
+        ;
+
+        
+    
+    
+                marker_df3f1cf2e168715d3b537c020a949a6b.setIcon(icon_993cd7a765bd906627ccaceb6f103fd2);
+            
+    
+            var marker_1b1a74c7029f474886c64acf6046980a = L.marker(
+                [0.06444, 32.44694],
+                {
+}
+            ).addTo(map_564ffd4332112f7140462e6ef89c1017);
+        
+    
+            var icon_dcc234dd9bf35c02609cc24a9e711234 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_390bcf3baa51d0063b172248f465fde0 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_8ff92bd37ede732e3593b31f11057bd3 = $(`<div id="html_8ff92bd37ede732e3593b31f11057bd3" style="width: 100.0%; height: 100.0%;">6GXC+V94, Entebbe, Uganda</div>`)[0];
+                popup_390bcf3baa51d0063b172248f465fde0.setContent(html_8ff92bd37ede732e3593b31f11057bd3);
+            
+        
+
+        marker_1b1a74c7029f474886c64acf6046980a.bindPopup(popup_390bcf3baa51d0063b172248f465fde0)
+        ;
+
+        
+    
+    
+                marker_1b1a74c7029f474886c64acf6046980a.setIcon(icon_dcc234dd9bf35c02609cc24a9e711234);
+            
+    
+            var marker_afda5d49d368ec55bae935bfd9961e4a = L.marker(
+                [0.3697574, 32.6132258],
+                {
+}
+            ).addTo(map_564ffd4332112f7140462e6ef89c1017);
+        
+    
+            var icon_24fd97e36365b6fdb9c2c44c431040f4 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_27b8e25d0d8f6f268e5a7087c0704cc2 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_b74c4d35647d23b42a3bda9df4f35751 = $(`<div id="html_b74c4d35647d23b42a3bda9df4f35751" style="width: 100.0%; height: 100.0%;">75D Kulambiro Ring Rd, Kampala, Uganda</div>`)[0];
+                popup_27b8e25d0d8f6f268e5a7087c0704cc2.setContent(html_b74c4d35647d23b42a3bda9df4f35751);
+            
+        
+
+        marker_afda5d49d368ec55bae935bfd9961e4a.bindPopup(popup_27b8e25d0d8f6f268e5a7087c0704cc2)
+        ;
+
+        
+    
+    
+                marker_afda5d49d368ec55bae935bfd9961e4a.setIcon(icon_24fd97e36365b6fdb9c2c44c431040f4);
+            
+    
+            var marker_be0062ef3aaa3b57f50036048dfb1c5c = L.marker(
+                [-0.53639, 31.62139],
+                {
+}
+            ).addTo(map_564ffd4332112f7140462e6ef89c1017);
+        
+    
+            var icon_f573c3e54daec371c72ea0a455f4c856 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_545b59c94df610caff548e9589c9a3e7 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_3b29bbb37f33d78bde6514ae6cb32eed = $(`<div id="html_3b29bbb37f33d78bde6514ae6cb32eed" style="width: 100.0%; height: 100.0%;">FJ8F+X4V, Kalisizo, Uganda</div>`)[0];
+                popup_545b59c94df610caff548e9589c9a3e7.setContent(html_3b29bbb37f33d78bde6514ae6cb32eed);
+            
+        
+
+        marker_be0062ef3aaa3b57f50036048dfb1c5c.bindPopup(popup_545b59c94df610caff548e9589c9a3e7)
+        ;
+
+        
+    
+    
+                marker_be0062ef3aaa3b57f50036048dfb1c5c.setIcon(icon_f573c3e54daec371c72ea0a455f4c856);
+            
+    
+            var marker_f5b028a5b98343a8f56048a460edaaca = L.marker(
+                [0.3546, 32.572],
+                {
+}
+            ).addTo(map_564ffd4332112f7140462e6ef89c1017);
+        
+    
+            var icon_527cdbcffee5b687791d50a36ab2abc7 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_a7a91dc07a10eef18c47ad2232447303 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_abe0a3e467e05a715cb21e455fbefb27 = $(`<div id="html_abe0a3e467e05a715cb21e455fbefb27" style="width: 100.0%; height: 100.0%;">Gayaza -Kampala Rd, Kampala, Uganda</div>`)[0];
+                popup_a7a91dc07a10eef18c47ad2232447303.setContent(html_abe0a3e467e05a715cb21e455fbefb27);
+            
+        
+
+        marker_f5b028a5b98343a8f56048a460edaaca.bindPopup(popup_a7a91dc07a10eef18c47ad2232447303)
+        ;
+
+        
+    
+    
+                marker_f5b028a5b98343a8f56048a460edaaca.setIcon(icon_527cdbcffee5b687791d50a36ab2abc7);
+            
+    
+            var marker_998010f274cdc3c228e76f7307782f92 = L.marker(
+                [0.31628, 32.58219],
+                {
+}
+            ).addTo(map_564ffd4332112f7140462e6ef89c1017);
+        
+    
+            var icon_5b8864b7679ca5f9625c070d53bfd62f = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_81c9c8acdf4e1750d2014b756bd5dc35 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_a55713486e67815de33267fe77a10c78 = $(`<div id="html_a55713486e67815de33267fe77a10c78" style="width: 100.0%; height: 100.0%;">9G8F+MJH, Hoima Rd, Kampala, Uganda</div>`)[0];
+                popup_81c9c8acdf4e1750d2014b756bd5dc35.setContent(html_a55713486e67815de33267fe77a10c78);
+            
+        
+
+        marker_998010f274cdc3c228e76f7307782f92.bindPopup(popup_81c9c8acdf4e1750d2014b756bd5dc35)
+        ;
+
+        
+    
+    
+                marker_998010f274cdc3c228e76f7307782f92.setIcon(icon_5b8864b7679ca5f9625c070d53bfd62f);
+            
+    
+            var marker_b36783d10a1922028a6ae13fe7315fa5 = L.marker(
+                [0.3467173, 32.6113465],
+                {
+}
+            ).addTo(map_564ffd4332112f7140462e6ef89c1017);
+        
+    
+            var icon_25e1af9fbf0dfb3fd99977189cbc2c4c = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_ec8313f7ebee771a2fb32e2b0b3ef037 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_102b56be6d44b1deacd68fe568ef7773 = $(`<div id="html_102b56be6d44b1deacd68fe568ef7773" style="width: 100.0%; height: 100.0%;">179a Ntinda - Kisaasi Rd, Kampala, Uganda</div>`)[0];
+                popup_ec8313f7ebee771a2fb32e2b0b3ef037.setContent(html_102b56be6d44b1deacd68fe568ef7773);
+            
+        
+
+        marker_b36783d10a1922028a6ae13fe7315fa5.bindPopup(popup_ec8313f7ebee771a2fb32e2b0b3ef037)
+        ;
+
+        
+    
+    
+                marker_b36783d10a1922028a6ae13fe7315fa5.setIcon(icon_25e1af9fbf0dfb3fd99977189cbc2c4c);
+            
+    
+            var marker_21327c5e6678042d3596c9e49d8c9a6f = L.marker(
+                [0.31628, 32.58219],
+                {
+}
+            ).addTo(map_564ffd4332112f7140462e6ef89c1017);
+        
+    
+            var icon_ab76996612444929cae7a622e8885dff = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_f00366836bd01c3369350a7620c34182 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f6a8fbaf2c9a1d082282fdb134ce64e6 = $(`<div id="html_f6a8fbaf2c9a1d082282fdb134ce64e6" style="width: 100.0%; height: 100.0%;">Plot 117 Kira Rd, Kampala, Uganda</div>`)[0];
+                popup_f00366836bd01c3369350a7620c34182.setContent(html_f6a8fbaf2c9a1d082282fdb134ce64e6);
+            
+        
+
+        marker_21327c5e6678042d3596c9e49d8c9a6f.bindPopup(popup_f00366836bd01c3369350a7620c34182)
+        ;
+
+        
+    
+    
+                marker_21327c5e6678042d3596c9e49d8c9a6f.setIcon(icon_ab76996612444929cae7a622e8885dff);
+            
+    
+            var marker_4c85701c12a8541578d126b5097a1b4a = L.marker(
+                [0.31628, 32.58219],
+                {
+}
+            ).addTo(map_564ffd4332112f7140462e6ef89c1017);
+        
+    
+            var icon_d84e7c51a21b1cea43abb02e5399655e = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_ec6081dfa84aa0db47ecb7e893be7886 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_e0fdbfad234c4389098d3f0fda282262 = $(`<div id="html_e0fdbfad234c4389098d3f0fda282262" style="width: 100.0%; height: 100.0%;">9H9H+57H, 15A Bahai Road, Kampala, Uganda</div>`)[0];
+                popup_ec6081dfa84aa0db47ecb7e893be7886.setContent(html_e0fdbfad234c4389098d3f0fda282262);
+            
+        
+
+        marker_4c85701c12a8541578d126b5097a1b4a.bindPopup(popup_ec6081dfa84aa0db47ecb7e893be7886)
+        ;
+
+        
+    
+    
+                marker_4c85701c12a8541578d126b5097a1b4a.setIcon(icon_d84e7c51a21b1cea43abb02e5399655e);
+            
+    
+            var marker_30f7c1e726166d2cfeb535ebf2eab682 = L.marker(
+                [0.31628, 32.58219],
+                {
+}
+            ).addTo(map_564ffd4332112f7140462e6ef89c1017);
+        
+    
+            var icon_29ae047ff5356f7bd174b3fe8929a7a4 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_8993d626ff40535adadf3373c1fc0f85 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_6c0fac468a6dd32eb8fc1db440d325e8 = $(`<div id="html_6c0fac468a6dd32eb8fc1db440d325e8" style="width: 100.0%; height: 100.0%;">9G7F+989, Kampala, Uganda</div>`)[0];
+                popup_8993d626ff40535adadf3373c1fc0f85.setContent(html_6c0fac468a6dd32eb8fc1db440d325e8);
+            
+        
+
+        marker_30f7c1e726166d2cfeb535ebf2eab682.bindPopup(popup_8993d626ff40535adadf3373c1fc0f85)
+        ;
+
+        
+    
+    
+                marker_30f7c1e726166d2cfeb535ebf2eab682.setIcon(icon_29ae047ff5356f7bd174b3fe8929a7a4);
+            
+    
+            var marker_60dacd153fc04aa303b2decb73c1e1b1 = L.marker(
+                [0.31628, 32.58219],
+                {
+}
+            ).addTo(map_564ffd4332112f7140462e6ef89c1017);
+        
+    
+            var icon_f97d45392926ed29a1aaacb6d1900c72 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_fabcf1f50bcf4a637db25e822895cddb = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f0f052b2663eab577f4a406dacb23a2f = $(`<div id="html_f0f052b2663eab577f4a406dacb23a2f" style="width: 100.0%; height: 100.0%;">7G34+GP8, Nakawuka Rd, Kampala, Uganda</div>`)[0];
+                popup_fabcf1f50bcf4a637db25e822895cddb.setContent(html_f0f052b2663eab577f4a406dacb23a2f);
+            
+        
+
+        marker_60dacd153fc04aa303b2decb73c1e1b1.bindPopup(popup_fabcf1f50bcf4a637db25e822895cddb)
+        ;
+
+        
+    
+    
+                marker_60dacd153fc04aa303b2decb73c1e1b1.setIcon(icon_f97d45392926ed29a1aaacb6d1900c72);
+            
+    
+            var marker_f44a281d6596160773e554dc8c74a6ed = L.marker(
+                [0.31628, 32.58219],
+                {
+}
+            ).addTo(map_564ffd4332112f7140462e6ef89c1017);
+        
+    
+            var icon_953807fa6ce74602e7038407775dfa44 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_e46a58e84fb9ee046002d990476c511a = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_00e3d725476c5cf2932b67296c39d2d0 = $(`<div id="html_00e3d725476c5cf2932b67296c39d2d0" style="width: 100.0%; height: 100.0%;">8GW8+3P, Kampala, Uganda</div>`)[0];
+                popup_e46a58e84fb9ee046002d990476c511a.setContent(html_00e3d725476c5cf2932b67296c39d2d0);
+            
+        
+
+        marker_f44a281d6596160773e554dc8c74a6ed.bindPopup(popup_e46a58e84fb9ee046002d990476c511a)
+        ;
+
+        
+    
+    
+                marker_f44a281d6596160773e554dc8c74a6ed.setIcon(icon_953807fa6ce74602e7038407775dfa44);
+            
+    
+            var marker_56b7165d8281f031632e1dec701b4ce0 = L.marker(
+                [0.3467173, 32.6113465],
+                {
+}
+            ).addTo(map_564ffd4332112f7140462e6ef89c1017);
+        
+    
+            var icon_2614adffe58539d33ec8ca69ab57bc5b = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_c8c4e9f41ed6654ae7ad25c3ddd6cb34 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_36f64345b929e21bc361e162b0aa8f01 = $(`<div id="html_36f64345b929e21bc361e162b0aa8f01" style="width: 100.0%; height: 100.0%;">136b Ntinda - Kisaasi Rd, Kampala, Uganda</div>`)[0];
+                popup_c8c4e9f41ed6654ae7ad25c3ddd6cb34.setContent(html_36f64345b929e21bc361e162b0aa8f01);
+            
+        
+
+        marker_56b7165d8281f031632e1dec701b4ce0.bindPopup(popup_c8c4e9f41ed6654ae7ad25c3ddd6cb34)
+        ;
+
+        
+    
+    
+                marker_56b7165d8281f031632e1dec701b4ce0.setIcon(icon_2614adffe58539d33ec8ca69ab57bc5b);
+            
+    
+            var marker_8835cf91cd9d003a6c641c2b35bc585a = L.marker(
+                [2.77457, 32.29899],
+                {
+}
+            ).addTo(map_564ffd4332112f7140462e6ef89c1017);
+        
+    
+            var icon_f9bbe65dc07e61a77991db1344242b25 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_4fbcdda985fb2095ef975d9ca5256d9c = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_fdfcf4a82ecd16ffe1cf48c94912c12b = $(`<div id="html_fdfcf4a82ecd16ffe1cf48c94912c12b" style="width: 100.0%; height: 100.0%;">9 Sir Samuel Baker Rd, Gulu, Uganda</div>`)[0];
+                popup_4fbcdda985fb2095ef975d9ca5256d9c.setContent(html_fdfcf4a82ecd16ffe1cf48c94912c12b);
+            
+        
+
+        marker_8835cf91cd9d003a6c641c2b35bc585a.bindPopup(popup_4fbcdda985fb2095ef975d9ca5256d9c)
+        ;
+
+        
+    
+    
+                marker_8835cf91cd9d003a6c641c2b35bc585a.setIcon(icon_f9bbe65dc07e61a77991db1344242b25);
+            
+    
+            var marker_560a940bafa052581d24e09cd140661a = L.marker(
+                [0.43902, 33.20317],
+                {
+}
+            ).addTo(map_564ffd4332112f7140462e6ef89c1017);
+        
+    
+            var icon_ace71e44a0a99722802ee6a744c6cc31 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_d4ca4607ad4d3e8f650caf8372ef5847 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f5ad710975860baa24abf1c8e6d6a377 = $(`<div id="html_f5ad710975860baa24abf1c8e6d6a377" style="width: 100.0%; height: 100.0%;">C6R7+RC6, Jinja, Uganda</div>`)[0];
+                popup_d4ca4607ad4d3e8f650caf8372ef5847.setContent(html_f5ad710975860baa24abf1c8e6d6a377);
+            
+        
+
+        marker_560a940bafa052581d24e09cd140661a.bindPopup(popup_d4ca4607ad4d3e8f650caf8372ef5847)
+        ;
+
+        
+    
+    
+                marker_560a940bafa052581d24e09cd140661a.setIcon(icon_ace71e44a0a99722802ee6a744c6cc31);
+            
+    
+            var marker_37e8987087c3408d0170c56b2cfb755a = L.marker(
+                [1.25, 32.5],
+                {
+}
+            ).addTo(map_564ffd4332112f7140462e6ef89c1017);
+        
+    
+            var icon_d010ea64cf1bc9fcb2d7a77614c6473e = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_7da67d2999defc3f05e8a6440c5ba91c = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_05112eee405341bd2c66d0af88735ede = $(`<div id="html_05112eee405341bd2c66d0af88735ede" style="width: 100.0%; height: 100.0%;">MJ4Q+QRF, Nkoni Town, Uganda</div>`)[0];
+                popup_7da67d2999defc3f05e8a6440c5ba91c.setContent(html_05112eee405341bd2c66d0af88735ede);
+            
+        
+
+        marker_37e8987087c3408d0170c56b2cfb755a.bindPopup(popup_7da67d2999defc3f05e8a6440c5ba91c)
+        ;
+
+        
+    
+    
+                marker_37e8987087c3408d0170c56b2cfb755a.setIcon(icon_d010ea64cf1bc9fcb2d7a77614c6473e);
+            
+    
+            var marker_1aebd0174ab13100560d04163c002ced = L.marker(
+                [0.31628, 32.58219],
+                {
+}
+            ).addTo(map_564ffd4332112f7140462e6ef89c1017);
+        
+    
+            var icon_d10c89be21e7050f075ee3d3495be61f = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_90cd657f6a207a3d31fbfa22bf064c63 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_8f14cc419896fe9ae4b48de25b84cb7f = $(`<div id="html_8f14cc419896fe9ae4b48de25b84cb7f" style="width: 100.0%; height: 100.0%;">9MM3+W9F, Kampala, Uganda</div>`)[0];
+                popup_90cd657f6a207a3d31fbfa22bf064c63.setContent(html_8f14cc419896fe9ae4b48de25b84cb7f);
+            
+        
+
+        marker_1aebd0174ab13100560d04163c002ced.bindPopup(popup_90cd657f6a207a3d31fbfa22bf064c63)
+        ;
+
+        
+    
+    
+                marker_1aebd0174ab13100560d04163c002ced.setIcon(icon_d10c89be21e7050f075ee3d3495be61f);
+            
+    
+            var marker_0d96e401e39048032c49abe8740d33f2 = L.marker(
+                [0.2855096, 32.5814058],
+                {
+}
+            ).addTo(map_564ffd4332112f7140462e6ef89c1017);
+        
+    
+            var icon_d695a114e272da8b474c3cb77f64f7c6 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_d0b092cb0a89ee739d404175595c0385 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_b1054bb12f57c3ccfa583db169c1e9ac = $(`<div id="html_b1054bb12f57c3ccfa583db169c1e9ac" style="width: 100.0%; height: 100.0%;">34a Mobutu Road, Kampala, Uganda</div>`)[0];
+                popup_d0b092cb0a89ee739d404175595c0385.setContent(html_b1054bb12f57c3ccfa583db169c1e9ac);
+            
+        
+
+        marker_0d96e401e39048032c49abe8740d33f2.bindPopup(popup_d0b092cb0a89ee739d404175595c0385)
+        ;
+
+        
+    
+    
+                marker_0d96e401e39048032c49abe8740d33f2.setIcon(icon_d695a114e272da8b474c3cb77f64f7c6);
+            
+    
+            var marker_45845d607aa3ac1401d47fa3fb02e7c6 = L.marker(
+                [0.31628, 32.58219],
+                {
+}
+            ).addTo(map_564ffd4332112f7140462e6ef89c1017);
+        
+    
+            var icon_c23bf82873d6e04a93fd589a79af6e4b = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_88a22de8023900deec8dbedb9bc0b9e9 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_2aeef1fdddf4f5d78ac5cd5aacae852f = $(`<div id="html_2aeef1fdddf4f5d78ac5cd5aacae852f" style="width: 100.0%; height: 100.0%;">Nansana, Kabumbi Road, Kampala, Uganda</div>`)[0];
+                popup_88a22de8023900deec8dbedb9bc0b9e9.setContent(html_2aeef1fdddf4f5d78ac5cd5aacae852f);
+            
+        
+
+        marker_45845d607aa3ac1401d47fa3fb02e7c6.bindPopup(popup_88a22de8023900deec8dbedb9bc0b9e9)
+        ;
+
+        
+    
+    
+                marker_45845d607aa3ac1401d47fa3fb02e7c6.setIcon(icon_c23bf82873d6e04a93fd589a79af6e4b);
+            
+    
+            var marker_d06ae27d275593dcf6af8302882476eb = L.marker(
+                [2.2499, 32.89985],
+                {
+}
+            ).addTo(map_564ffd4332112f7140462e6ef89c1017);
+        
+    
+            var icon_abcb7ef26c17eb2488ab73412c15d4f1 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_739aaed66ed8a114b62e3eb3ef580d85 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_52553fd3bdb688ae02940e467bb626ae = $(`<div id="html_52553fd3bdb688ae02940e467bb626ae" style="width: 100.0%; height: 100.0%;">7V5P+6WQ, Lira, Uganda</div>`)[0];
+                popup_739aaed66ed8a114b62e3eb3ef580d85.setContent(html_52553fd3bdb688ae02940e467bb626ae);
+            
+        
+
+        marker_d06ae27d275593dcf6af8302882476eb.bindPopup(popup_739aaed66ed8a114b62e3eb3ef580d85)
+        ;
+
+        
+    
+    
+                marker_d06ae27d275593dcf6af8302882476eb.setIcon(icon_abcb7ef26c17eb2488ab73412c15d4f1);
+            
+    
+            var marker_a86fe3298ef04b5b2028b85d88ae1076 = L.marker(
+                [-0.53639, 31.62139],
+                {
+}
+            ).addTo(map_564ffd4332112f7140462e6ef89c1017);
+        
+    
+            var icon_36bf71cc8c3329daa7aada53ceab7a9a = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_28c646f1a8344a49ed8b9199837ddd3d = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_48c7b0f730d19272c7a2b307e600bea6 = $(`<div id="html_48c7b0f730d19272c7a2b307e600bea6" style="width: 100.0%; height: 100.0%;">FJ49+C5Q, Kalisizo, Uganda</div>`)[0];
+                popup_28c646f1a8344a49ed8b9199837ddd3d.setContent(html_48c7b0f730d19272c7a2b307e600bea6);
+            
+        
+
+        marker_a86fe3298ef04b5b2028b85d88ae1076.bindPopup(popup_28c646f1a8344a49ed8b9199837ddd3d)
+        ;
+
+        
+    
+    
+                marker_a86fe3298ef04b5b2028b85d88ae1076.setIcon(icon_36bf71cc8c3329daa7aada53ceab7a9a);
+            
+    
+            var marker_0142e5a02b95c03f9666e0200dc585bc = L.marker(
+                [-0.53639, 31.62139],
+                {
+}
+            ).addTo(map_564ffd4332112f7140462e6ef89c1017);
+        
+    
+            var icon_bd2b3722cafa00b98403ba406735316c = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_cb0837dd1d1da7741729737d22d574c4 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_e650d4db1b515ad1b7208d4a382c5e35 = $(`<div id="html_e650d4db1b515ad1b7208d4a382c5e35" style="width: 100.0%; height: 100.0%;">FJ7C+299 Rotary triangle, Kalisizo, Uganda</div>`)[0];
+                popup_cb0837dd1d1da7741729737d22d574c4.setContent(html_e650d4db1b515ad1b7208d4a382c5e35);
+            
+        
+
+        marker_0142e5a02b95c03f9666e0200dc585bc.bindPopup(popup_cb0837dd1d1da7741729737d22d574c4)
+        ;
+
+        
+    
+    
+                marker_0142e5a02b95c03f9666e0200dc585bc.setIcon(icon_bd2b3722cafa00b98403ba406735316c);
+            
+    
+            var marker_e0200589510d3f37c959a3cf078f5344 = L.marker(
+                [0.31628, 32.58219],
+                {
+}
+            ).addTo(map_564ffd4332112f7140462e6ef89c1017);
+        
+    
+            var icon_72539bf3c5dc055783b6e0a5cdc61967 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_d39f85857330b7a4eb86b30fbc525892 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_c55b736cd726f8fa1b1b265b5831f329 = $(`<div id="html_c55b736cd726f8fa1b1b265b5831f329" style="width: 100.0%; height: 100.0%;">Market Street Capital shoppers plaza, Kampala, Uganda</div>`)[0];
+                popup_d39f85857330b7a4eb86b30fbc525892.setContent(html_c55b736cd726f8fa1b1b265b5831f329);
+            
+        
+
+        marker_e0200589510d3f37c959a3cf078f5344.bindPopup(popup_d39f85857330b7a4eb86b30fbc525892)
+        ;
+
+        
+    
+    
+                marker_e0200589510d3f37c959a3cf078f5344.setIcon(icon_72539bf3c5dc055783b6e0a5cdc61967);
+            
+    
+            var marker_2a9fc84e8648bb73cceabb96bb252a64 = L.marker(
+                [0.3837442, 32.5402658],
+                {
+}
+            ).addTo(map_564ffd4332112f7140462e6ef89c1017);
+        
+    
+            var icon_41cd403b2028f882380aaae6eebebbd9 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_cd1d020a6371ca347e17960951d89491 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_3d9f04fd80026d9961a1ff2604d43a7f = $(`<div id="html_3d9f04fd80026d9961a1ff2604d43a7f" style="width: 100.0%; height: 100.0%;">Nabweru South Ward, Wakiso, Nansana, Uganda</div>`)[0];
+                popup_cd1d020a6371ca347e17960951d89491.setContent(html_3d9f04fd80026d9961a1ff2604d43a7f);
+            
+        
+
+        marker_2a9fc84e8648bb73cceabb96bb252a64.bindPopup(popup_cd1d020a6371ca347e17960951d89491)
+        ;
+
+        
+    
+    
+                marker_2a9fc84e8648bb73cceabb96bb252a64.setIcon(icon_41cd403b2028f882380aaae6eebebbd9);
+            
+    
+            var marker_c47b348aeaed256acf3c436ccf81153b = L.marker(
+                [1.71464, 33.61113],
+                {
+}
+            ).addTo(map_564ffd4332112f7140462e6ef89c1017);
+        
+    
+            var icon_841a668bf121f3d3afb7a8de8d5c8578 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_531bd0c6498b577ac4dcdf5c725b9c6c = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_12473d0691dce1dccd0c6cf8503255c0 = $(`<div id="html_12473d0691dce1dccd0c6cf8503255c0" style="width: 100.0%; height: 100.0%;">PJ8C+HR3, Soroti, Uganda</div>`)[0];
+                popup_531bd0c6498b577ac4dcdf5c725b9c6c.setContent(html_12473d0691dce1dccd0c6cf8503255c0);
+            
+        
+
+        marker_c47b348aeaed256acf3c436ccf81153b.bindPopup(popup_531bd0c6498b577ac4dcdf5c725b9c6c)
+        ;
+
+        
+    
+    
+                marker_c47b348aeaed256acf3c436ccf81153b.setIcon(icon_841a668bf121f3d3afb7a8de8d5c8578);
+            
+    
+            var marker_41ac7838a642883bc29db0389d434a81 = L.marker(
+                [0.378663, 32.5575077],
+                {
+}
+            ).addTo(map_564ffd4332112f7140462e6ef89c1017);
+        
+    
+            var icon_2ee39e11ad9af54ce3b02f68eafc34df = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_f7c2df8062b4d8119ff458225668ed1f = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_b702dac491d5999b4da9d871a3fc94be = $(`<div id="html_b702dac491d5999b4da9d871a3fc94be" style="width: 100.0%; height: 100.0%;">394e Bombo Rd, Kampala, Uganda</div>`)[0];
+                popup_f7c2df8062b4d8119ff458225668ed1f.setContent(html_b702dac491d5999b4da9d871a3fc94be);
+            
+        
+
+        marker_41ac7838a642883bc29db0389d434a81.bindPopup(popup_f7c2df8062b4d8119ff458225668ed1f)
+        ;
+
+        
+    
+    
+                marker_41ac7838a642883bc29db0389d434a81.setIcon(icon_2ee39e11ad9af54ce3b02f68eafc34df);
+            
+    
+            var marker_cf7f802daf3ae1f3c5a4e469a9494d8a = L.marker(
+                [0.35333, 32.75528],
+                {
+}
+            ).addTo(map_564ffd4332112f7140462e6ef89c1017);
+        
+    
+            var icon_5e36b9ff9a4200bd4e8d4392655da50c = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_d0f598dad1089e04e892090db8aee4cd = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_23b5e93eae0f5f2ea8b7ba5e9f5dbf4c = $(`<div id="html_23b5e93eae0f5f2ea8b7ba5e9f5dbf4c" style="width: 100.0%; height: 100.0%;">8QQ7+GMM, Mukono, Uganda</div>`)[0];
+                popup_d0f598dad1089e04e892090db8aee4cd.setContent(html_23b5e93eae0f5f2ea8b7ba5e9f5dbf4c);
+            
+        
+
+        marker_cf7f802daf3ae1f3c5a4e469a9494d8a.bindPopup(popup_d0f598dad1089e04e892090db8aee4cd)
+        ;
+
+        
+    
+    
+                marker_cf7f802daf3ae1f3c5a4e469a9494d8a.setIcon(icon_5e36b9ff9a4200bd4e8d4392655da50c);
+            
+    
+            var marker_cb93103af01a3bac5fa6bf31f78fd692 = L.marker(
+                [0.3138455, 32.5868603],
+                {
+}
+            ).addTo(map_564ffd4332112f7140462e6ef89c1017);
+        
+    
+            var icon_378eab36111faa58f6777efc95b15946 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_dd350d3c7bf1ed475cbb0c2b29e531f0 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_491da90135bb89390b376f8cde17eae5 = $(`<div id="html_491da90135bb89390b376f8cde17eae5" style="width: 100.0%; height: 100.0%;">9a Parliament Ave, Kampala, Uganda</div>`)[0];
+                popup_dd350d3c7bf1ed475cbb0c2b29e531f0.setContent(html_491da90135bb89390b376f8cde17eae5);
+            
+        
+
+        marker_cb93103af01a3bac5fa6bf31f78fd692.bindPopup(popup_dd350d3c7bf1ed475cbb0c2b29e531f0)
+        ;
+
+        
+    
+    
+                marker_cb93103af01a3bac5fa6bf31f78fd692.setIcon(icon_378eab36111faa58f6777efc95b15946);
+            
+    
+            var marker_25fa951e832ce6846730deead625e00f = L.marker(
+                [0.31628, 32.58219],
+                {
+}
+            ).addTo(map_564ffd4332112f7140462e6ef89c1017);
+        
+    
+            var icon_2af2689ddc29f03c9899fa84ab76001f = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_5aa3d5d4a340e0d3ff267c50a89f0aa6 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_ad018e10ae3e751494b80e8a1f784d30 = $(`<div id="html_ad018e10ae3e751494b80e8a1f784d30" style="width: 100.0%; height: 100.0%;">Plot 2397, Mpererwe, Tula, Kampala, Uganda</div>`)[0];
+                popup_5aa3d5d4a340e0d3ff267c50a89f0aa6.setContent(html_ad018e10ae3e751494b80e8a1f784d30);
+            
+        
+
+        marker_25fa951e832ce6846730deead625e00f.bindPopup(popup_5aa3d5d4a340e0d3ff267c50a89f0aa6)
+        ;
+
+        
+    
+    
+                marker_25fa951e832ce6846730deead625e00f.setIcon(icon_2af2689ddc29f03c9899fa84ab76001f);
+            
+    
+            var marker_73f5ee4277aebebbad408894e35794ce = L.marker(
+                [0.31628, 32.58219],
+                {
+}
+            ).addTo(map_564ffd4332112f7140462e6ef89c1017);
+        
+    
+            var icon_76df27aa4aaf0bae2001de1b86205a7d = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_44a237f25a09d21bde3a36b9a2ecc28a = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_59bf3b6e4f66b5cce80dae6acfdbfc7f = $(`<div id="html_59bf3b6e4f66b5cce80dae6acfdbfc7f" style="width: 100.0%; height: 100.0%;">9J8Q+QJG, Kampala, Uganda</div>`)[0];
+                popup_44a237f25a09d21bde3a36b9a2ecc28a.setContent(html_59bf3b6e4f66b5cce80dae6acfdbfc7f);
+            
+        
+
+        marker_73f5ee4277aebebbad408894e35794ce.bindPopup(popup_44a237f25a09d21bde3a36b9a2ecc28a)
+        ;
+
+        
+    
+    
+                marker_73f5ee4277aebebbad408894e35794ce.setIcon(icon_76df27aa4aaf0bae2001de1b86205a7d);
+            
+    
+            var marker_10d3cea9dd09d35a81a3baccb4399264 = L.marker(
+                [0.55849, 31.39489],
+                {
+}
+            ).addTo(map_564ffd4332112f7140462e6ef89c1017);
+        
+    
+            var icon_030bce1a6d9208ab0f7b88a54cc8e728 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_4763355390a9acc284f965680eb97e8a = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_9dc9be739312ac4f9dcb07482e6629e9 = $(`<div id="html_9dc9be739312ac4f9dcb07482e6629e9" style="width: 100.0%; height: 100.0%;">H95R+5JC, Mubende, Uganda</div>`)[0];
+                popup_4763355390a9acc284f965680eb97e8a.setContent(html_9dc9be739312ac4f9dcb07482e6629e9);
+            
+        
+
+        marker_10d3cea9dd09d35a81a3baccb4399264.bindPopup(popup_4763355390a9acc284f965680eb97e8a)
+        ;
+
+        
+    
+    
+                marker_10d3cea9dd09d35a81a3baccb4399264.setIcon(icon_030bce1a6d9208ab0f7b88a54cc8e728);
+            
+    
+            var marker_58c66c54b8cc794bb50c05dee7284fe3 = L.marker(
+                [0.0706012, 32.4786358],
+                {
+}
+            ).addTo(map_564ffd4332112f7140462e6ef89c1017);
+        
+    
+            var icon_c0411e127066a0933b9e587af8e7ae23 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_eeea2d59e39c1867c9598bb7b4aca66a = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_3849ab40ad7bb15cc54b6eed8beb7a1a = $(`<div id="html_3849ab40ad7bb15cc54b6eed8beb7a1a" style="width: 100.0%; height: 100.0%;">64 Kitumbu Road, Entebbe, Uganda</div>`)[0];
+                popup_eeea2d59e39c1867c9598bb7b4aca66a.setContent(html_3849ab40ad7bb15cc54b6eed8beb7a1a);
+            
+        
+
+        marker_58c66c54b8cc794bb50c05dee7284fe3.bindPopup(popup_eeea2d59e39c1867c9598bb7b4aca66a)
+        ;
+
+        
+    
+    
+                marker_58c66c54b8cc794bb50c05dee7284fe3.setIcon(icon_c0411e127066a0933b9e587af8e7ae23);
+            
+    
+            var marker_62f789ea102beeafb469a4ac6c2d67d1 = L.marker(
+                [1.43314, 31.35241],
+                {
+}
+            ).addTo(map_564ffd4332112f7140462e6ef89c1017);
+        
+    
+            var icon_65c015435c004abd1365f6d4352953f0 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_b18aca3533603d87121a1e065dac9fee = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_74fa4609427d5b7fe871f88c305cc837 = $(`<div id="html_74fa4609427d5b7fe871f88c305cc837" style="width: 100.0%; height: 100.0%;">Plot 1-3 Rwentuuha Close, Hoima, Uganda</div>`)[0];
+                popup_b18aca3533603d87121a1e065dac9fee.setContent(html_74fa4609427d5b7fe871f88c305cc837);
+            
+        
+
+        marker_62f789ea102beeafb469a4ac6c2d67d1.bindPopup(popup_b18aca3533603d87121a1e065dac9fee)
+        ;
+
+        
+    
+    
+                marker_62f789ea102beeafb469a4ac6c2d67d1.setIcon(icon_65c015435c004abd1365f6d4352953f0);
+            
+    
+            var marker_a6f7137f21e471eb24064962af82fd8b = L.marker(
+                [0.0666713, 32.4537495],
+                {
+}
+            ).addTo(map_564ffd4332112f7140462e6ef89c1017);
+        
+    
+            var icon_11e1e9aea33c1488b107ec0a23316ccb = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_8814464dd15165864a07833c84b9cb89 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_c8f4752964165079a290e53b2101a6f3 = $(`<div id="html_c8f4752964165079a290e53b2101a6f3" style="width: 100.0%; height: 100.0%;">Kiwafu Rd, Entebbe, Uganda</div>`)[0];
+                popup_8814464dd15165864a07833c84b9cb89.setContent(html_c8f4752964165079a290e53b2101a6f3);
+            
+        
+
+        marker_a6f7137f21e471eb24064962af82fd8b.bindPopup(popup_8814464dd15165864a07833c84b9cb89)
+        ;
+
+        
+    
+    
+                marker_a6f7137f21e471eb24064962af82fd8b.setIcon(icon_11e1e9aea33c1488b107ec0a23316ccb);
+            
+    
+            var marker_50080494753bb27653a603c07c56bc34 = L.marker(
+                [-0.60467, 30.64851],
+                {
+}
+            ).addTo(map_564ffd4332112f7140462e6ef89c1017);
+        
+    
+            var icon_eb7d665305b3c34462891519fd8bee26 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_ce41b23ae6485f66fceeda19bb10d3dc = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_fd84458613f44853d653e94f0088d53b = $(`<div id="html_fd84458613f44853d653e94f0088d53b" style="width: 100.0%; height: 100.0%;">9MXF+4VR, Mbarara, Uganda</div>`)[0];
+                popup_ce41b23ae6485f66fceeda19bb10d3dc.setContent(html_fd84458613f44853d653e94f0088d53b);
+            
+        
+
+        marker_50080494753bb27653a603c07c56bc34.bindPopup(popup_ce41b23ae6485f66fceeda19bb10d3dc)
+        ;
+
+        
+    
+    
+                marker_50080494753bb27653a603c07c56bc34.setIcon(icon_eb7d665305b3c34462891519fd8bee26);
+            
+    
+            var marker_3c71eef598fd44419a81d33dc243bdb2 = L.marker(
+                [3.02013, 30.91105],
+                {
+}
+            ).addTo(map_564ffd4332112f7140462e6ef89c1017);
+        
+    
+            var icon_ca54995ddb996676714bc601c77d59d2 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_b213a04989c21fa003996d814584de1c = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_6bed0e6e1c78b3e41e05b8e0386bef42 = $(`<div id="html_6bed0e6e1c78b3e41e05b8e0386bef42" style="width: 100.0%; height: 100.0%;">2WG4+XMX, Adumi Rd, Arua, Uganda</div>`)[0];
+                popup_b213a04989c21fa003996d814584de1c.setContent(html_6bed0e6e1c78b3e41e05b8e0386bef42);
+            
+        
+
+        marker_3c71eef598fd44419a81d33dc243bdb2.bindPopup(popup_b213a04989c21fa003996d814584de1c)
+        ;
+
+        
+    
+    
+                marker_3c71eef598fd44419a81d33dc243bdb2.setIcon(icon_ca54995ddb996676714bc601c77d59d2);
+            
+    
+            var marker_292d2f840b51e7e5203bcc102c6b8272 = L.marker(
+                [0.5553135, 31.3950855],
+                {
+}
+            ).addTo(map_564ffd4332112f7140462e6ef89c1017);
+        
+    
+            var icon_8ce5fb7afab614de8a3401aeda701564 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_9a53160addbbb8706652c60a4be2b59e = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_98f435c9b12e925551fd8b1a9e429e3b = $(`<div id="html_98f435c9b12e925551fd8b1a9e429e3b" style="width: 100.0%; height: 100.0%;">H94V+JM4, Mubende, Uganda</div>`)[0];
+                popup_9a53160addbbb8706652c60a4be2b59e.setContent(html_98f435c9b12e925551fd8b1a9e429e3b);
+            
+        
+
+        marker_292d2f840b51e7e5203bcc102c6b8272.bindPopup(popup_9a53160addbbb8706652c60a4be2b59e)
+        ;
+
+        
+    
+    
+                marker_292d2f840b51e7e5203bcc102c6b8272.setIcon(icon_8ce5fb7afab614de8a3401aeda701564);
+            
+    
+            var marker_0ef1c35766f36055fbcfec63d5542d63 = L.marker(
+                [0.31628, 32.58219],
+                {
+}
+            ).addTo(map_564ffd4332112f7140462e6ef89c1017);
+        
+    
+            var icon_387f8d30ff4b532c4c02e6620418309a = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_596be21e754723129f48ab7b4d8b9ed3 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_d7cc340403e6d8515192e4899e67be40 = $(`<div id="html_d7cc340403e6d8515192e4899e67be40" style="width: 100.0%; height: 100.0%;">Suite 1A Beta House. Ntinda Kigowa, Kiwatule Rd, Kampala, Uganda</div>`)[0];
+                popup_596be21e754723129f48ab7b4d8b9ed3.setContent(html_d7cc340403e6d8515192e4899e67be40);
+            
+        
+
+        marker_0ef1c35766f36055fbcfec63d5542d63.bindPopup(popup_596be21e754723129f48ab7b4d8b9ed3)
+        ;
+
+        
+    
+    
+                marker_0ef1c35766f36055fbcfec63d5542d63.setIcon(icon_387f8d30ff4b532c4c02e6620418309a);
+            
+    
+            var marker_bff98b9e0955b77a03768c2c46330e54 = L.marker(
+                [0.7025, 32.88861],
+                {
+}
+            ).addTo(map_564ffd4332112f7140462e6ef89c1017);
+        
+    
+            var icon_5988e8667e5e3ed8f266288917059ab6 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_af1dc239b93728eb449e97fd688cb7f7 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_fc2714dcc30ff6f476ddb1531889ca24 = $(`<div id="html_fc2714dcc30ff6f476ddb1531889ca24" style="width: 100.0%; height: 100.0%;">PW22+8R4, Kayunga, Uganda</div>`)[0];
+                popup_af1dc239b93728eb449e97fd688cb7f7.setContent(html_fc2714dcc30ff6f476ddb1531889ca24);
+            
+        
+
+        marker_bff98b9e0955b77a03768c2c46330e54.bindPopup(popup_af1dc239b93728eb449e97fd688cb7f7)
+        ;
+
+        
+    
+    
+                marker_bff98b9e0955b77a03768c2c46330e54.setIcon(icon_5988e8667e5e3ed8f266288917059ab6);
+            
+    
+            var marker_ca70b5d12f25e3bb6ac1727a1e5c527f = L.marker(
+                [0.9924074, 32.8592384],
+                {
+}
+            ).addTo(map_564ffd4332112f7140462e6ef89c1017);
+        
+    
+            var icon_ee8204e98305159f1fb05502df1f55f9 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_d08ea53a8d3e6836c4bac0f0419fded7 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_5be15104b424cac9ea68bd624c37fe5e = $(`<div id="html_5be15104b424cac9ea68bd624c37fe5e" style="width: 100.0%; height: 100.0%;">P.O Box 18069, Kayunga, Uganda</div>`)[0];
+                popup_d08ea53a8d3e6836c4bac0f0419fded7.setContent(html_5be15104b424cac9ea68bd624c37fe5e);
+            
+        
+
+        marker_ca70b5d12f25e3bb6ac1727a1e5c527f.bindPopup(popup_d08ea53a8d3e6836c4bac0f0419fded7)
+        ;
+
+        
+    
+    
+                marker_ca70b5d12f25e3bb6ac1727a1e5c527f.setIcon(icon_ee8204e98305159f1fb05502df1f55f9);
+            
+    
+            var marker_61dfc67a0d48ceff758eed727011edc6 = L.marker(
+                [0.5553135, 31.3950855],
+                {
+}
+            ).addTo(map_564ffd4332112f7140462e6ef89c1017);
+        
+    
+            var icon_b1419408544cce16aa651cc1908116ef = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_dbc29adcdd6fbae08900a9e653a3edbc = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_6c08979a0175073eee2a334006263ab4 = $(`<div id="html_6c08979a0175073eee2a334006263ab4" style="width: 100.0%; height: 100.0%;">H96P+4HV, Mubende, Uganda</div>`)[0];
+                popup_dbc29adcdd6fbae08900a9e653a3edbc.setContent(html_6c08979a0175073eee2a334006263ab4);
+            
+        
+
+        marker_61dfc67a0d48ceff758eed727011edc6.bindPopup(popup_dbc29adcdd6fbae08900a9e653a3edbc)
+        ;
+
+        
+    
+    
+                marker_61dfc67a0d48ceff758eed727011edc6.setIcon(icon_b1419408544cce16aa651cc1908116ef);
+            
+    
+            var marker_27837c5a565c183ec8a8c06d308c413c = L.marker(
+                [0.31628, 32.58219],
+                {
+}
+            ).addTo(map_564ffd4332112f7140462e6ef89c1017);
+        
+    
+            var icon_86d8f4eb0e9fb52caf7603ab033bbe32 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_d417254b75b910ec2bb5a7d25bed1772 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_9db27bf15e05ffc446795d342e199e2f = $(`<div id="html_9db27bf15e05ffc446795d342e199e2f" style="width: 100.0%; height: 100.0%;">7HJM+MCQ, Kampala, Uganda</div>`)[0];
+                popup_d417254b75b910ec2bb5a7d25bed1772.setContent(html_9db27bf15e05ffc446795d342e199e2f);
+            
+        
+
+        marker_27837c5a565c183ec8a8c06d308c413c.bindPopup(popup_d417254b75b910ec2bb5a7d25bed1772)
+        ;
+
+        
+    
+    
+                marker_27837c5a565c183ec8a8c06d308c413c.setIcon(icon_86d8f4eb0e9fb52caf7603ab033bbe32);
+            
+    
+            var marker_60c544dad3b2504ecd45f4b8ef068d9c = L.marker(
+                [0.31628, 32.58219],
+                {
+}
+            ).addTo(map_564ffd4332112f7140462e6ef89c1017);
+        
+    
+            var icon_53236baf90fad4c8e21bd27b1bd21ccc = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_3a77c488f172b2c704df01f9ee7d482e = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_7798a5a52ad4878e8c0b03fb68efb205 = $(`<div id="html_7798a5a52ad4878e8c0b03fb68efb205" style="width: 100.0%; height: 100.0%;">8H5H+J6J, Ben Kiwanuka St, Kampala, Uganda</div>`)[0];
+                popup_3a77c488f172b2c704df01f9ee7d482e.setContent(html_7798a5a52ad4878e8c0b03fb68efb205);
+            
+        
+
+        marker_60c544dad3b2504ecd45f4b8ef068d9c.bindPopup(popup_3a77c488f172b2c704df01f9ee7d482e)
+        ;
+
+        
+    
+    
+                marker_60c544dad3b2504ecd45f4b8ef068d9c.setIcon(icon_53236baf90fad4c8e21bd27b1bd21ccc);
+            
+    
+            var marker_ec05ad47d81c7c7834cbeee73cfcd0f1 = L.marker(
+                [0.37722, 32.91972],
+                {
+}
+            ).addTo(map_564ffd4332112f7140462e6ef89c1017);
+        
+    
+            var icon_0f25fd862c618aff173d77c6e74c531b = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_f4b7a973d78d8afaf947a27e317d68ef = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_046d7d99c7d9d9da529760752f4461aa = $(`<div id="html_046d7d99c7d9d9da529760752f4461aa" style="width: 100.0%; height: 100.0%;">The Liz Motel,, Ntenga road, Lugazi Central Town, Buikwe district, POBOX 260 Lugazi, UGANDA</div>`)[0];
+                popup_f4b7a973d78d8afaf947a27e317d68ef.setContent(html_046d7d99c7d9d9da529760752f4461aa);
+            
+        
+
+        marker_ec05ad47d81c7c7834cbeee73cfcd0f1.bindPopup(popup_f4b7a973d78d8afaf947a27e317d68ef)
+        ;
+
+        
+    
+    
+                marker_ec05ad47d81c7c7834cbeee73cfcd0f1.setIcon(icon_0f25fd862c618aff173d77c6e74c531b);
+            
+    
+            var marker_62ddd5b0cb028223829bec05dc2910f4 = L.marker(
+                [0.69299, 34.18085],
+                {
+}
+            ).addTo(map_564ffd4332112f7140462e6ef89c1017);
+        
+    
+            var icon_404bfb708bf24160bbd1932c522a7859 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_635aa391b94c6da4fb7f762dc094bace = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_d8b5f7c119a0c048bbb4dcc2bb67e4e2 = $(`<div id="html_d8b5f7c119a0c048bbb4dcc2bb67e4e2" style="width: 100.0%; height: 100.0%;">M5VJ+CGH, Bazaar St, Tororo, Uganda</div>`)[0];
+                popup_635aa391b94c6da4fb7f762dc094bace.setContent(html_d8b5f7c119a0c048bbb4dcc2bb67e4e2);
+            
+        
+
+        marker_62ddd5b0cb028223829bec05dc2910f4.bindPopup(popup_635aa391b94c6da4fb7f762dc094bace)
+        ;
+
+        
+    
+    
+                marker_62ddd5b0cb028223829bec05dc2910f4.setIcon(icon_404bfb708bf24160bbd1932c522a7859);
+            
+    
+            var marker_8db7111391a13f878fb8aaf0435bcc7e = L.marker(
+                [0.1897536, 30.0923354],
+                {
+}
+            ).addTo(map_564ffd4332112f7140462e6ef89c1017);
+        
+    
+            var icon_120b8f1ef804267b20a436ab45b6c79d = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_21a4c8c1418d05253cda79739fb5c52e = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_a86b39a1388e9b4701cbdf8bf49f4a82 = $(`<div id="html_a86b39a1388e9b4701cbdf8bf49f4a82" style="width: 100.0%; height: 100.0%;">Nyakasanga Lower, Kasese, Uganda</div>`)[0];
+                popup_21a4c8c1418d05253cda79739fb5c52e.setContent(html_a86b39a1388e9b4701cbdf8bf49f4a82);
+            
+        
+
+        marker_8db7111391a13f878fb8aaf0435bcc7e.bindPopup(popup_21a4c8c1418d05253cda79739fb5c52e)
+        ;
+
+        
+    
+    
+                marker_8db7111391a13f878fb8aaf0435bcc7e.setIcon(icon_120b8f1ef804267b20a436ab45b6c79d);
+            
+    
+            var marker_bf757deef8e875b4e81ad2bf80e10d66 = L.marker(
+                [0.31628, 32.58219],
+                {
+}
+            ).addTo(map_564ffd4332112f7140462e6ef89c1017);
+        
+    
+            var icon_e5998452fcf63410f2b31e457431a9a5 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_c7fda064199ab351aa43607052c6744a = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_8a7a1d94b0b9af946be3017f52b88fb7 = $(`<div id="html_8a7a1d94b0b9af946be3017f52b88fb7" style="width: 100.0%; height: 100.0%;">8HJF+V8P, Jjunju Rd, Kampala, Uganda</div>`)[0];
+                popup_c7fda064199ab351aa43607052c6744a.setContent(html_8a7a1d94b0b9af946be3017f52b88fb7);
+            
+        
+
+        marker_bf757deef8e875b4e81ad2bf80e10d66.bindPopup(popup_c7fda064199ab351aa43607052c6744a)
+        ;
+
+        
+    
+    
+                marker_bf757deef8e875b4e81ad2bf80e10d66.setIcon(icon_e5998452fcf63410f2b31e457431a9a5);
+            
+    
+            var marker_b093d675546cd63dcd29c6e7dfebbaa9 = L.marker(
+                [0.3260067, 32.5623704],
+                {
+}
+            ).addTo(map_564ffd4332112f7140462e6ef89c1017);
+        
+    
+            var icon_a6f205bd84754557f28ccded3b316f3d = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_cfb2e40fcfb59927b152a79c601cda5f = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_36ef40acc039d750751218885f1668bb = $(`<div id="html_36ef40acc039d750751218885f1668bb" style="width: 100.0%; height: 100.0%;">13C Makerere Hill Rd, Kampala, Uganda</div>`)[0];
+                popup_cfb2e40fcfb59927b152a79c601cda5f.setContent(html_36ef40acc039d750751218885f1668bb);
+            
+        
+
+        marker_b093d675546cd63dcd29c6e7dfebbaa9.bindPopup(popup_cfb2e40fcfb59927b152a79c601cda5f)
+        ;
+
+        
+    
+    
+                marker_b093d675546cd63dcd29c6e7dfebbaa9.setIcon(icon_a6f205bd84754557f28ccded3b316f3d);
+            
+    
+            var marker_d5ebb80f8d05f8b9b069ceb8a6e2649b = L.marker(
+                [0.18333, 30.08333],
+                {
+}
+            ).addTo(map_564ffd4332112f7140462e6ef89c1017);
+        
+    
+            var icon_c7f476ac32179b2bd02f940bd2bfb5b5 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_e4de813d32c6cc7831a91a9c332f04a9 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_0c067a7836bd49978ee2036482f7461a = $(`<div id="html_0c067a7836bd49978ee2036482f7461a" style="width: 100.0%; height: 100.0%;">MBOGOYABO ROAD - KISANGA B, Kasese, Uganda</div>`)[0];
+                popup_e4de813d32c6cc7831a91a9c332f04a9.setContent(html_0c067a7836bd49978ee2036482f7461a);
+            
+        
+
+        marker_d5ebb80f8d05f8b9b069ceb8a6e2649b.bindPopup(popup_e4de813d32c6cc7831a91a9c332f04a9)
+        ;
+
+        
+    
+    
+                marker_d5ebb80f8d05f8b9b069ceb8a6e2649b.setIcon(icon_c7f476ac32179b2bd02f940bd2bfb5b5);
+            
+    
+            var marker_4c104d3bd5bb1eb6caca81eff27e3dcf = L.marker(
+                [0.3759082, 32.5657457],
+                {
+}
+            ).addTo(map_564ffd4332112f7140462e6ef89c1017);
+        
+    
+            var icon_6fc143e996d54f3090e99fc2cb4411ae = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_0cacd4b03c639f811a85591fa9207d4d = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_b22da5235ec8f07b37d95324af855b74 = $(`<div id="html_b22da5235ec8f07b37d95324af855b74" style="width: 100.0%; height: 100.0%;">3B Kawempe I 2274, Kampala, Uganda</div>`)[0];
+                popup_0cacd4b03c639f811a85591fa9207d4d.setContent(html_b22da5235ec8f07b37d95324af855b74);
+            
+        
+
+        marker_4c104d3bd5bb1eb6caca81eff27e3dcf.bindPopup(popup_0cacd4b03c639f811a85591fa9207d4d)
+        ;
+
+        
+    
+    
+                marker_4c104d3bd5bb1eb6caca81eff27e3dcf.setIcon(icon_6fc143e996d54f3090e99fc2cb4411ae);
+            
+    
+            var marker_a7c10560a86de4f5599060a227c9935f = L.marker(
+                [0.31628, 32.58219],
+                {
+}
+            ).addTo(map_564ffd4332112f7140462e6ef89c1017);
+        
+    
+            var icon_abfa76a9ed6795f1bd7ca5bc970a08b0 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_1c99249f7302db405232a30cd4fe423f = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_9e79cb7a3a56abb2dc40e3e4ddb37eb5 = $(`<div id="html_9e79cb7a3a56abb2dc40e3e4ddb37eb5" style="width: 100.0%; height: 100.0%;">8H9V+753 Centenary Park Kampala, Kampala, Uganda</div>`)[0];
+                popup_1c99249f7302db405232a30cd4fe423f.setContent(html_9e79cb7a3a56abb2dc40e3e4ddb37eb5);
+            
+        
+
+        marker_a7c10560a86de4f5599060a227c9935f.bindPopup(popup_1c99249f7302db405232a30cd4fe423f)
+        ;
+
+        
+    
+    
+                marker_a7c10560a86de4f5599060a227c9935f.setIcon(icon_abfa76a9ed6795f1bd7ca5bc970a08b0);
+            
+    
+            var heat_map_0a643e1939d853b8c9ff12d78b5a749b = L.heatLayer(
+                [[0.3443616, 32.8771621], [0.2998454, 32.5337397], [0.31628, 32.58219], [-0.60467, 30.64851], [2.77457, 32.29899], [0.31628, 32.58219], [0.31628, 32.58219], [0.55849, 31.39489], [2.75757, 32.226651], [0.31628, 32.58219], [0.2855096, 32.5814058], [0.31628, 32.58219], [0.31628, 32.58219], [0.3266271, 32.6052422], [0.12111, 32.53], [0.31628, 32.58219], [0.3951672, 32.5948028], [0.3432172, 32.5956142], [2.7790426, 32.2959219], [0.37, 32.0], [0.37, 32.0], [0.31628, 32.58219], [0.31628, 32.58219], [0.31628, 32.58219], [-0.60467, 30.64851], [0.3424016, 32.5908159], [-0.60467, 30.64851], [0.3467173, 32.6113465], [0.3427646, 32.5923783], [0.37, 32.0], [0.31628, 32.58219], [0.3510945, 32.5722126], [0.37, 32.0], [1.25, 32.5], [-0.6376238, 31.7655258], [0.3979221, 32.7326769], [0.3424016, 32.5908159], [2.7767442, 32.3232717], [1.25, 32.5], [1.25, 32.5], [0.35333, 32.75528], [0.31628, 32.58219], [0.2838672, 32.6159847], [-0.3329418, 31.7056952], [0.0865018, 32.5470988], [0.0865018, 32.5470988], [0.3467173, 32.6113465], [0.31628, 32.58219], [1.25, 32.5], [0.3206703, 32.5766536], [0.3467173, 32.6113465], [1.25, 32.5], [-0.60467, 30.64851], [0.3628561, 32.6014977], [0.3628561, 32.6014977], [0.2725147, 32.5652971], [0.3467173, 32.6113465], [0.3276958, 32.5738132], [0.35333, 32.75528], [0.31628, 32.58219], [2.77457, 32.29899], [0.31628, 32.58219], [0.3177137, 32.5813539], [0.06444, 32.44694], [0.3697574, 32.6132258], [-0.53639, 31.62139], [0.3546, 32.572], [0.31628, 32.58219], [0.3467173, 32.6113465], [0.31628, 32.58219], [0.31628, 32.58219], [0.31628, 32.58219], [0.31628, 32.58219], [0.31628, 32.58219], [0.3467173, 32.6113465], [2.77457, 32.29899], [0.43902, 33.20317], [1.25, 32.5], [0.31628, 32.58219], [0.2855096, 32.5814058], [0.31628, 32.58219], [2.2499, 32.89985], [-0.53639, 31.62139], [-0.53639, 31.62139], [0.31628, 32.58219], [0.3837442, 32.5402658], [1.71464, 33.61113], [0.378663, 32.5575077], [0.35333, 32.75528], [0.3138455, 32.5868603], [0.31628, 32.58219], [0.31628, 32.58219], [0.55849, 31.39489], [0.0706012, 32.4786358], [1.43314, 31.35241], [0.0666713, 32.4537495], [-0.60467, 30.64851], [3.02013, 30.91105], [0.5553135, 31.3950855], [0.31628, 32.58219], [0.7025, 32.88861], [0.9924074, 32.8592384], [0.5553135, 31.3950855], [0.31628, 32.58219], [0.31628, 32.58219], [0.37722, 32.91972], [0.69299, 34.18085], [0.1897536, 30.0923354], [0.31628, 32.58219], [0.3260067, 32.5623704], [0.18333, 30.08333], [0.3759082, 32.5657457], [0.31628, 32.58219]],
+                {
+  "minOpacity": 0.5,
+  "maxZoom": 18,
+  "radius": 25,
+  "blur": 15,
+}
+            );
+        
+    
+            heat_map_0a643e1939d853b8c9ff12d78b5a749b.addTo(map_564ffd4332112f7140462e6ef89c1017);
+        
+</script>
+</html>
